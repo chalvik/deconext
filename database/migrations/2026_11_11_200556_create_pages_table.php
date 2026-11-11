@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('slug');
             $table->string('name');
+            $table->integer('template_id');
             $table->string('title');
             $table->string('image_url');
             $table->longText('description');
