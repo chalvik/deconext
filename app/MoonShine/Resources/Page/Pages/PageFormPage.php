@@ -14,6 +14,7 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\UI\Components\Layout\Box;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -29,6 +30,8 @@ class PageFormPage extends FormPage
         return [
             Box::make([
                 ID::make(),
+                Text::make('name'),
+                Text::make('title'),
             ]),
         ];
     }

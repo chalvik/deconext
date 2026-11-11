@@ -11,6 +11,7 @@ use MoonShine\Laravel\Pages\Crud\DetailPage;
 use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -25,6 +26,8 @@ class PageDetailPage extends DetailPage
     {
         return [
             ID::make(),
+            Text::make('name'),
+            Text::make('title'),
         ];
     }
 

@@ -14,6 +14,7 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\UI\Components\Layout\Box;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
 use Throwable;
 
 /**
@@ -29,6 +30,7 @@ class ProductImageFormPage extends FormPage
         return [
             Box::make([
                 ID::make(),
+                Image::make('image_url'),
             ]),
         ];
     }

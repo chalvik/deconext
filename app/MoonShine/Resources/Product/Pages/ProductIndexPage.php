@@ -13,6 +13,8 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -29,6 +31,9 @@ class ProductIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Image::make('image_url'),
+            Text::make('name'),
+            Text::make('title'),
         ];
     }
 

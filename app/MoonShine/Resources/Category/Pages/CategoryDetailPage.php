@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\MoonShine\Resources\Category\Pages;
 
 use App\MoonShine\Resources\Category\CategoryResource;
+use MoonShine\UI\Fields\Text;
 use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
 use MoonShine\Laravel\Pages\Crud\DetailPage;
@@ -25,6 +26,9 @@ class CategoryDetailPage extends DetailPage
     {
         return [
             ID::make(),
+            Text::make('name'),
+            Text::make('created_at'),
+            Text::make('updated_at'),
         ];
     }
 
