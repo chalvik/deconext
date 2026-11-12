@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('slug');
             $table->string('name');
-            $table->integer('template_id');
+            $table->integer('template_id')->default(0);
             $table->string('title');
-            $table->string('image_url');
+            $table->string('image_url')->nullable();
             $table->longText('description');
             $table->boolean('published')->default(false);
             $table->timestamps();

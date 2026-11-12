@@ -14,7 +14,10 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\UI\Components\Layout\Box;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Switcher;
 use MoonShine\UI\Fields\Text;
+use MoonShine\UI\Fields\Textarea;
 use Throwable;
 
 /**
@@ -30,8 +33,17 @@ class ProductFormPage extends FormPage
         return [
             Box::make([
                 ID::make(),
-                Text::make('name'),
+                Text::make('slug')->nullable(),
+                Text::make('name')->required(),
                 Text::make('title'),
+                Text::make('category_id'),
+                Image::make('image_url')->nullable(),
+                Text::make('series_id'),
+                Text::make('embossing_id'),
+                Text::make('protect_layer_id'),
+                Textarea::make('description')->required(),
+                Switcher::make('published')
+
             ]),
         ];
     }

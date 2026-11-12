@@ -30,7 +30,8 @@ class CategoryFormPage extends FormPage
         return [
             Box::make([
                 ID::make(),
-                Text::make('name'),
+                Text::make('slug')->required(),
+                Text::make('name')->required(),
             ]),
         ];
     }

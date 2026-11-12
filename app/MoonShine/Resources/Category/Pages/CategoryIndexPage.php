@@ -30,6 +30,7 @@ class CategoryIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Text::make('slug'),
             Text::make('name'),
         ];
     }

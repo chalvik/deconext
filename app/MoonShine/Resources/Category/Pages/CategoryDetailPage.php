@@ -26,6 +26,7 @@ class CategoryDetailPage extends DetailPage
     {
         return [
             ID::make(),
+            Text::make('slug'),
             Text::make('name'),
             Text::make('created_at'),
             Text::make('updated_at'),
