@@ -1,223 +1,3515 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Декоры &#8212; Deconext</title>
+    <meta name='robots' content='noindex, nofollow' />
+    <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+    <link rel='dns-prefetch' href='https://fonts.googleapis.com' />
+    <link rel="alternate" type="application/rss+xml" title="Deconext &raquo; Лента" href="../feed/index.rss" />
+    <link rel="alternate" type="application/rss+xml" title="Deconext &raquo; Лента комментариев" href="../comments/feed/index.rss" />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/annt.ru\/deco1\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+        /*! This file is auto-generated */
+        !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+        /* ]]> */
+    </script>
+    <style id='wp-emoji-styles-inline-css' type='text/css'>img.wp-smiley, img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+    <style id='classic-theme-styles-inline-css' type='text/css'>/*! This file is auto-generated */
+        .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+        :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+        :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+        :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='theratio-fonts-css' href='../../../fonts.googleapis.com/css%EF%B9%96family=Raleway%EF%B9%95300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%EF%BD%9CTitillium+Web%EF%B9%95300,300i,400,400i,600,600i,700,700i,900%EF%BD%9CJosefin+Sans%EF%B9%95300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin,latin-ext.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='../wp-content/themes/theratio/css/bootstrap.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='theratio-awesome-font-css' href='../wp-content/themes/theratio/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='theratio-flaticon-font-css' href='../wp-content/themes/theratio/css/flaticon.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='lightgallery-css' href='../wp-content/themes/theratio/css/lightgallery.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='../wp-content/themes/theratio/css/swiper.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='theratio-style-css' href='../wp-content/themes/theratio/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpdreams-asl-basic-css' href='../wp-content/plugins/ajax-search-lite/css/style.basic.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpdreams-ajaxsearchlite-css' href='../wp-content/plugins/ajax-search-lite/css/style-underline.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='../wp-content/plugins/elementor/assets/css/frontend-lite.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-5-css' href='../wp-content/uploads/elementor/css/post-5.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-pro-css' href='../wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='../wp-content/uploads/elementor/css/global.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-5227-css' href='../wp-content/uploads/elementor/css/post-5227.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='../../../fonts.googleapis.com/css%EF%B9%96family=Roboto%EF%B9%95100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%EF%BD%9CRoboto+Slab%EF%B9%95100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600i_76e3430846505479.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpc-filter-everything-css' href='../wp-content/plugins/filter-everything-pro/assets/css/filter-everything.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpc-filter-everything-custom-css' href='../wp-content/uploads/cache/filter-everything/75d387837672e60a702e5bd36409d5ab%EF%B9%96ver=6.7.2.css' type='text/css' media='all' />
+    <script type="text/javascript" src="../wp-includes/js/jquery/jquery.min%EF%B9%96ver=3.7.1.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min%EF%B9%96ver=3.4.1.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" id="theratio_scripts-js-extra">
+        /* <![CDATA[ */
+        var theratio_loadmore_params = {"ajaxurl":"https:\/\/annt.ru\/deco1\/wp-admin\/admin-ajax.php"};
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="../wp-content/themes/theratio/js/myloadmore%EF%B9%96ver=1739974328.js" id="theratio_scripts-js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/filter-everything-pro/assets/js/select2/select2.min%EF%B9%96ver=4.1.0.js" id="select2-js"></script>
+    <link rel="https://api.w.org/" href="../wp-json/index.json" /><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/pages/5227.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%EF%B9%96rsd.xml" />
+    <meta name="generator" content="WordPress 6.7.2" />
+    <link rel="canonical" href="index.html" />
+    <link rel='shortlink' href='index.html' />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="../wp-json/oembed/1.0/embed%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7annt.ru%EA%A4%B7deco1%EA%A4%B7decor-select%EA%A4%B7.json" />
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7annt.ru%EA%A4%B7deco1%EA%A4%B7decor-select%EA%A4%B7&amp;format=xml.xml" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preload" as="style" href="../../../fonts.googleapis.com/css%EF%B9%96family=Open+Sans&amp;display=swap.css" />
+    <link rel="stylesheet" href="../../../fonts.googleapis.com/css%EF%B9%96family=Open+Sans&amp;display=swap.css" media="all" />
+    <style type="text/css" id="filter-everything-inline-css">.wpc-orderby-select{width:100%}.wpc-filters-open-button-container{display:none}.wpc-debug-message{padding:16px;font-size:14px;border:1px dashed #ccc;margin-bottom:20px}.wpc-debug-title{visibility:hidden}.wpc-button-inner,.wpc-chip-content{display:flex;align-items:center}.wpc-icon-html-wrapper{position:relative;margin-right:10px;top:2px}.wpc-icon-html-wrapper span{display:block;height:1px;width:18px;border-radius:3px;background:#2c2d33;margin-bottom:4px;position:relative}span.wpc-icon-line-1:after,span.wpc-icon-line-2:after,span.wpc-icon-line-3:after{content:"";display:block;width:3px;height:3px;border:1px solid #2c2d33;background-color:#fff;position:absolute;top:-2px;box-sizing:content-box}span.wpc-icon-line-3:after{border-radius:50%;left:2px}span.wpc-icon-line-1:after{border-radius:50%;left:5px}span.wpc-icon-line-2:after{border-radius:50%;left:12px}body .wpc-filters-open-button-container a.wpc-filters-open-widget,body .wpc-filters-open-button-container a.wpc-open-close-filters-button{display:inline-block;text-align:left;border:1px solid #2c2d33;border-radius:2px;line-height:1.5;padding:7px 12px;background-color:transparent;color:#2c2d33;box-sizing:border-box;text-decoration:none!important;font-weight:400;transition:none;position:relative}@media screen and (max-width:768px){.wpc_show_bottom_widget .wpc-filters-open-button-container,.wpc_show_open_close_button .wpc-filters-open-button-container{display:block}.wpc_show_bottom_widget .wpc-filters-open-button-container{margin-top:1em;margin-bottom:1em}}</style>
+    <meta name="generator" content="Powered by Slider Revolution 6.6.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <style>div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label {
+            font-size: 0px !important;
+            color: rgba(0, 0, 0, 0);
+        }
+        div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label:after {
+            font-size: 11px !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .asl_w_container {
+            width: 50%;
+            margin:    ;
+            min-width: 200px;
+        }
+        div[id*='ajaxsearchlite'].asl_m {
+            width: 100%;
+        }
+        div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+            font-weight: bold;
+            color: rgba(217, 49, 43, 1);
+            background-color: rgba(238, 238, 238, 1);
+        }
+        div[id*='ajaxsearchliteres'].wpdreams_asl_results .results img.asl_image {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+        }
+        div.asl_r .results {
+            max-height: none;
+        }
 
-        @fonts
+        div.asl_r.asl_w.vertical .results .item::after {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            content: '';
+            height: 1px;
+            width: 100%;
+            background: #D8D8D8;
+        }
+        div.asl_r.asl_w.vertical .results .item.asl_last_item::after {
+            display: none;
+        }
+    </style>
+    <link rel="icon" href="../wp-content/uploads/2023/07/cropped-deconext_logo_fav-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../wp-content/uploads/2023/07/cropped-deconext_logo_fav-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../wp-content/uploads/2023/07/cropped-deconext_logo_fav-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://annt.ru/deco1/wp-content/uploads/2023/07/cropped-deconext_logo_fav-270x270.png" />
+    <script>function setREVStartSize(e){
+            //window.requestAnimationFrame(function() {
+            window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+                e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+                if(e.layout==="fullscreen" || e.l==="fullscreen")
+                    newh = Math.max(e.mh,window.RSIH);
+                else{
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+                    e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
 
-        <!-- Styles / Scripts -->
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @else
-            <style>
-                /*! tailwindcss v4.0.7 | MIT License | https://tailwindcss.com */ @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-space-x-reverse:0;--tw-border-style:solid;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-shadow:0 0 #0000;--tw-shadow-color:initial;--tw-shadow-alpha:100%;--tw-inset-shadow:0 0 #0000;--tw-inset-shadow-color:initial;--tw-inset-shadow-alpha:100%;--tw-ring-color:initial;--tw-ring-shadow:0 0 #0000;--tw-inset-ring-color:initial;--tw-inset-ring-shadow:0 0 #0000;--tw-ring-inset:initial;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-offset-shadow:0 0 #0000;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial;--tw-duration:initial;--tw-ease:initial;--tw-content:""}}}@layer theme{:root,:host{--font-sans:"Instrument Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-serif:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;--font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-red-50:oklch(97.1% .013 17.38);--color-red-100:oklch(93.6% .032 17.717);--color-red-200:oklch(88.5% .062 18.334);--color-red-300:oklch(80.8% .114 19.571);--color-red-400:oklch(70.4% .191 22.216);--color-red-500:oklch(63.7% .237 25.331);--color-red-600:oklch(57.7% .245 27.325);--color-red-700:oklch(50.5% .213 27.518);--color-red-800:oklch(44.4% .177 26.899);--color-red-900:oklch(39.6% .141 25.723);--color-red-950:oklch(25.8% .092 26.042);--color-orange-50:oklch(98% .016 73.684);--color-orange-100:oklch(95.4% .038 75.164);--color-orange-200:oklch(90.1% .076 70.697);--color-orange-300:oklch(83.7% .128 66.29);--color-orange-400:oklch(75% .183 55.934);--color-orange-500:oklch(70.5% .213 47.604);--color-orange-600:oklch(64.6% .222 41.116);--color-orange-700:oklch(55.3% .195 38.402);--color-orange-800:oklch(47% .157 37.304);--color-orange-900:oklch(40.8% .123 38.172);--color-orange-950:oklch(26.6% .079 36.259);--color-amber-50:oklch(98.7% .022 95.277);--color-amber-100:oklch(96.2% .059 95.617);--color-amber-200:oklch(92.4% .12 95.746);--color-amber-300:oklch(87.9% .169 91.605);--color-amber-400:oklch(82.8% .189 84.429);--color-amber-500:oklch(76.9% .188 70.08);--color-amber-600:oklch(66.6% .179 58.318);--color-amber-700:oklch(55.5% .163 48.998);--color-amber-800:oklch(47.3% .137 46.201);--color-amber-900:oklch(41.4% .112 45.904);--color-amber-950:oklch(27.9% .077 45.635);--color-yellow-50:oklch(98.7% .026 102.212);--color-yellow-100:oklch(97.3% .071 103.193);--color-yellow-200:oklch(94.5% .129 101.54);--color-yellow-300:oklch(90.5% .182 98.111);--color-yellow-400:oklch(85.2% .199 91.936);--color-yellow-500:oklch(79.5% .184 86.047);--color-yellow-600:oklch(68.1% .162 75.834);--color-yellow-700:oklch(55.4% .135 66.442);--color-yellow-800:oklch(47.6% .114 61.907);--color-yellow-900:oklch(42.1% .095 57.708);--color-yellow-950:oklch(28.6% .066 53.813);--color-lime-50:oklch(98.6% .031 120.757);--color-lime-100:oklch(96.7% .067 122.328);--color-lime-200:oklch(93.8% .127 124.321);--color-lime-300:oklch(89.7% .196 126.665);--color-lime-400:oklch(84.1% .238 128.85);--color-lime-500:oklch(76.8% .233 130.85);--color-lime-600:oklch(64.8% .2 131.684);--color-lime-700:oklch(53.2% .157 131.589);--color-lime-800:oklch(45.3% .124 130.933);--color-lime-900:oklch(40.5% .101 131.063);--color-lime-950:oklch(27.4% .072 132.109);--color-green-50:oklch(98.2% .018 155.826);--color-green-100:oklch(96.2% .044 156.743);--color-green-200:oklch(92.5% .084 155.995);--color-green-300:oklch(87.1% .15 154.449);--color-green-400:oklch(79.2% .209 151.711);--color-green-500:oklch(72.3% .219 149.579);--color-green-600:oklch(62.7% .194 149.214);--color-green-700:oklch(52.7% .154 150.069);--color-green-800:oklch(44.8% .119 151.328);--color-green-900:oklch(39.3% .095 152.535);--color-green-950:oklch(26.6% .065 152.934);--color-emerald-50:oklch(97.9% .021 166.113);--color-emerald-100:oklch(95% .052 163.051);--color-emerald-200:oklch(90.5% .093 164.15);--color-emerald-300:oklch(84.5% .143 164.978);--color-emerald-400:oklch(76.5% .177 163.223);--color-emerald-500:oklch(69.6% .17 162.48);--color-emerald-600:oklch(59.6% .145 163.225);--color-emerald-700:oklch(50.8% .118 165.612);--color-emerald-800:oklch(43.2% .095 166.913);--color-emerald-900:oklch(37.8% .077 168.94);--color-emerald-950:oklch(26.2% .051 172.552);--color-teal-50:oklch(98.4% .014 180.72);--color-teal-100:oklch(95.3% .051 180.801);--color-teal-200:oklch(91% .096 180.426);--color-teal-300:oklch(85.5% .138 181.071);--color-teal-400:oklch(77.7% .152 181.912);--color-teal-500:oklch(70.4% .14 182.503);--color-teal-600:oklch(60% .118 184.704);--color-teal-700:oklch(51.1% .096 186.391);--color-teal-800:oklch(43.7% .078 188.216);--color-teal-900:oklch(38.6% .063 188.416);--color-teal-950:oklch(27.7% .046 192.524);--color-cyan-50:oklch(98.4% .019 200.873);--color-cyan-100:oklch(95.6% .045 203.388);--color-cyan-200:oklch(91.7% .08 205.041);--color-cyan-300:oklch(86.5% .127 207.078);--color-cyan-400:oklch(78.9% .154 211.53);--color-cyan-500:oklch(71.5% .143 215.221);--color-cyan-600:oklch(60.9% .126 221.723);--color-cyan-700:oklch(52% .105 223.128);--color-cyan-800:oklch(45% .085 224.283);--color-cyan-900:oklch(39.8% .07 227.392);--color-cyan-950:oklch(30.2% .056 229.695);--color-sky-50:oklch(97.7% .013 236.62);--color-sky-100:oklch(95.1% .026 236.824);--color-sky-200:oklch(90.1% .058 230.902);--color-sky-300:oklch(82.8% .111 230.318);--color-sky-400:oklch(74.6% .16 232.661);--color-sky-500:oklch(68.5% .169 237.323);--color-sky-600:oklch(58.8% .158 241.966);--color-sky-700:oklch(50% .134 242.749);--color-sky-800:oklch(44.3% .11 240.79);--color-sky-900:oklch(39.1% .09 240.876);--color-sky-950:oklch(29.3% .066 243.157);--color-blue-50:oklch(97% .014 254.604);--color-blue-100:oklch(93.2% .032 255.585);--color-blue-200:oklch(88.2% .059 254.128);--color-blue-300:oklch(80.9% .105 251.813);--color-blue-400:oklch(70.7% .165 254.624);--color-blue-500:oklch(62.3% .214 259.815);--color-blue-600:oklch(54.6% .245 262.881);--color-blue-700:oklch(48.8% .243 264.376);--color-blue-800:oklch(42.4% .199 265.638);--color-blue-900:oklch(37.9% .146 265.522);--color-blue-950:oklch(28.2% .091 267.935);--color-indigo-50:oklch(96.2% .018 272.314);--color-indigo-100:oklch(93% .034 272.788);--color-indigo-200:oklch(87% .065 274.039);--color-indigo-300:oklch(78.5% .115 274.713);--color-indigo-400:oklch(67.3% .182 276.935);--color-indigo-500:oklch(58.5% .233 277.117);--color-indigo-600:oklch(51.1% .262 276.966);--color-indigo-700:oklch(45.7% .24 277.023);--color-indigo-800:oklch(39.8% .195 277.366);--color-indigo-900:oklch(35.9% .144 278.697);--color-indigo-950:oklch(25.7% .09 281.288);--color-violet-50:oklch(96.9% .016 293.756);--color-violet-100:oklch(94.3% .029 294.588);--color-violet-200:oklch(89.4% .057 293.283);--color-violet-300:oklch(81.1% .111 293.571);--color-violet-400:oklch(70.2% .183 293.541);--color-violet-500:oklch(60.6% .25 292.717);--color-violet-600:oklch(54.1% .281 293.009);--color-violet-700:oklch(49.1% .27 292.581);--color-violet-800:oklch(43.2% .232 292.759);--color-violet-900:oklch(38% .189 293.745);--color-violet-950:oklch(28.3% .141 291.089);--color-purple-50:oklch(97.7% .014 308.299);--color-purple-100:oklch(94.6% .033 307.174);--color-purple-200:oklch(90.2% .063 306.703);--color-purple-300:oklch(82.7% .119 306.383);--color-purple-400:oklch(71.4% .203 305.504);--color-purple-500:oklch(62.7% .265 303.9);--color-purple-600:oklch(55.8% .288 302.321);--color-purple-700:oklch(49.6% .265 301.924);--color-purple-800:oklch(43.8% .218 303.724);--color-purple-900:oklch(38.1% .176 304.987);--color-purple-950:oklch(29.1% .149 302.717);--color-fuchsia-50:oklch(97.7% .017 320.058);--color-fuchsia-100:oklch(95.2% .037 318.852);--color-fuchsia-200:oklch(90.3% .076 319.62);--color-fuchsia-300:oklch(83.3% .145 321.434);--color-fuchsia-400:oklch(74% .238 322.16);--color-fuchsia-500:oklch(66.7% .295 322.15);--color-fuchsia-600:oklch(59.1% .293 322.896);--color-fuchsia-700:oklch(51.8% .253 323.949);--color-fuchsia-800:oklch(45.2% .211 324.591);--color-fuchsia-900:oklch(40.1% .17 325.612);--color-fuchsia-950:oklch(29.3% .136 325.661);--color-pink-50:oklch(97.1% .014 343.198);--color-pink-100:oklch(94.8% .028 342.258);--color-pink-200:oklch(89.9% .061 343.231);--color-pink-300:oklch(82.3% .12 346.018);--color-pink-400:oklch(71.8% .202 349.761);--color-pink-500:oklch(65.6% .241 354.308);--color-pink-600:oklch(59.2% .249 .584);--color-pink-700:oklch(52.5% .223 3.958);--color-pink-800:oklch(45.9% .187 3.815);--color-pink-900:oklch(40.8% .153 2.432);--color-pink-950:oklch(28.4% .109 3.907);--color-rose-50:oklch(96.9% .015 12.422);--color-rose-100:oklch(94.1% .03 12.58);--color-rose-200:oklch(89.2% .058 10.001);--color-rose-300:oklch(81% .117 11.638);--color-rose-400:oklch(71.2% .194 13.428);--color-rose-500:oklch(64.5% .246 16.439);--color-rose-600:oklch(58.6% .253 17.585);--color-rose-700:oklch(51.4% .222 16.935);--color-rose-800:oklch(45.5% .188 13.697);--color-rose-900:oklch(41% .159 10.272);--color-rose-950:oklch(27.1% .105 12.094);--color-slate-50:oklch(98.4% .003 247.858);--color-slate-100:oklch(96.8% .007 247.896);--color-slate-200:oklch(92.9% .013 255.508);--color-slate-300:oklch(86.9% .022 252.894);--color-slate-400:oklch(70.4% .04 256.788);--color-slate-500:oklch(55.4% .046 257.417);--color-slate-600:oklch(44.6% .043 257.281);--color-slate-700:oklch(37.2% .044 257.287);--color-slate-800:oklch(27.9% .041 260.031);--color-slate-900:oklch(20.8% .042 265.755);--color-slate-950:oklch(12.9% .042 264.695);--color-gray-50:oklch(98.5% .002 247.839);--color-gray-100:oklch(96.7% .003 264.542);--color-gray-200:oklch(92.8% .006 264.531);--color-gray-300:oklch(87.2% .01 258.338);--color-gray-400:oklch(70.7% .022 261.325);--color-gray-500:oklch(55.1% .027 264.364);--color-gray-600:oklch(44.6% .03 256.802);--color-gray-700:oklch(37.3% .034 259.733);--color-gray-800:oklch(27.8% .033 256.848);--color-gray-900:oklch(21% .034 264.665);--color-gray-950:oklch(13% .028 261.692);--color-zinc-50:oklch(98.5% 0 0);--color-zinc-100:oklch(96.7% .001 286.375);--color-zinc-200:oklch(92% .004 286.32);--color-zinc-300:oklch(87.1% .006 286.286);--color-zinc-400:oklch(70.5% .015 286.067);--color-zinc-500:oklch(55.2% .016 285.938);--color-zinc-600:oklch(44.2% .017 285.786);--color-zinc-700:oklch(37% .013 285.805);--color-zinc-800:oklch(27.4% .006 286.033);--color-zinc-900:oklch(21% .006 285.885);--color-zinc-950:oklch(14.1% .005 285.823);--color-neutral-50:oklch(98.5% 0 0);--color-neutral-100:oklch(97% 0 0);--color-neutral-200:oklch(92.2% 0 0);--color-neutral-300:oklch(87% 0 0);--color-neutral-400:oklch(70.8% 0 0);--color-neutral-500:oklch(55.6% 0 0);--color-neutral-600:oklch(43.9% 0 0);--color-neutral-700:oklch(37.1% 0 0);--color-neutral-800:oklch(26.9% 0 0);--color-neutral-900:oklch(20.5% 0 0);--color-neutral-950:oklch(14.5% 0 0);--color-stone-50:oklch(98.5% .001 106.423);--color-stone-100:oklch(97% .001 106.424);--color-stone-200:oklch(92.3% .003 48.717);--color-stone-300:oklch(86.9% .005 56.366);--color-stone-400:oklch(70.9% .01 56.259);--color-stone-500:oklch(55.3% .013 58.071);--color-stone-600:oklch(44.4% .011 73.639);--color-stone-700:oklch(37.4% .01 67.558);--color-stone-800:oklch(26.8% .007 34.298);--color-stone-900:oklch(21.6% .006 56.043);--color-stone-950:oklch(14.7% .004 49.25);--color-black:#000;--color-white:#fff;--spacing:.25rem;--breakpoint-sm:40rem;--breakpoint-md:48rem;--breakpoint-lg:64rem;--breakpoint-xl:80rem;--breakpoint-2xl:96rem;--container-3xs:16rem;--container-2xs:18rem;--container-xs:20rem;--container-sm:24rem;--container-md:28rem;--container-lg:32rem;--container-xl:36rem;--container-2xl:42rem;--container-3xl:48rem;--container-4xl:56rem;--container-5xl:64rem;--container-6xl:72rem;--container-7xl:80rem;--text-xs:.75rem;--text-xs--line-height:calc(1 / .75);--text-sm:.875rem;--text-sm--line-height:calc(1.25 / .875);--text-base:1rem;--text-base--line-height: 1.5 ;--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-xl:1.25rem;--text-xl--line-height:calc(1.75 / 1.25);--text-2xl:1.5rem;--text-2xl--line-height:calc(2 / 1.5);--text-3xl:1.875rem;--text-3xl--line-height: 1.2 ;--text-4xl:2.25rem;--text-4xl--line-height:calc(2.5 / 2.25);--text-5xl:3rem;--text-5xl--line-height:1;--text-6xl:3.75rem;--text-6xl--line-height:1;--text-7xl:4.5rem;--text-7xl--line-height:1;--text-8xl:6rem;--text-8xl--line-height:1;--text-9xl:8rem;--text-9xl--line-height:1;--font-weight-thin:100;--font-weight-extralight:200;--font-weight-light:300;--font-weight-normal:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-extrabold:800;--font-weight-black:900;--tracking-tighter:-.05em;--tracking-tight:-.025em;--tracking-normal:0em;--tracking-wide:.025em;--tracking-wider:.05em;--tracking-widest:.1em;--leading-tight:1.25;--leading-snug:1.375;--leading-normal:1.5;--leading-relaxed:1.625;--leading-loose:2;--radius-xs:.125rem;--radius-sm:.25rem;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--radius-2xl:1rem;--radius-3xl:1.5rem;--radius-4xl:2rem;--shadow-2xs:0 1px #0000000d;--shadow-xs:0 1px 2px 0 #0000000d;--shadow-sm:0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;--shadow-md:0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;--shadow-lg:0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;--shadow-xl:0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;--shadow-2xl:0 25px 50px -12px #00000040;--inset-shadow-2xs:inset 0 1px #0000000d;--inset-shadow-xs:inset 0 1px 1px #0000000d;--inset-shadow-sm:inset 0 2px 4px #0000000d;--drop-shadow-xs:0 1px 1px #0000000d;--drop-shadow-sm:0 1px 2px #00000026;--drop-shadow-md:0 3px 3px #0000001f;--drop-shadow-lg:0 4px 4px #00000026;--drop-shadow-xl:0 9px 7px #0000001a;--drop-shadow-2xl:0 25px 25px #00000026;--ease-in:cubic-bezier(.4, 0, 1, 1);--ease-out:cubic-bezier(0, 0, .2, 1);--ease-in-out:cubic-bezier(.4, 0, .2, 1);--animate-spin:spin 1s linear infinite;--animate-ping:ping 1s cubic-bezier(0, 0, .2, 1) infinite;--animate-pulse:pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;--animate-bounce:bounce 1s infinite;--blur-xs:4px;--blur-sm:8px;--blur-md:12px;--blur-lg:16px;--blur-xl:24px;--blur-2xl:40px;--blur-3xl:64px;--perspective-dramatic:100px;--perspective-near:300px;--perspective-normal:500px;--perspective-midrange:800px;--perspective-distant:1200px;--aspect-video:16 / 9;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab,red,red)){::placeholder{color:color-mix(in oklab,currentcolor 50%,transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}}@layer components;@layer utilities{.absolute{position:absolute}.fixed{position:fixed}.relative{position:relative}.static{position:static}.inset-0{inset:calc(var(--spacing) * 0)}.start{inset-inline-start:var(--spacing)}.top-0{top:calc(var(--spacing) * 0)}.right-0{right:calc(var(--spacing) * 0)}.container{width:100%}@media(min-width:40rem){.container{max-width:40rem}}@media(min-width:48rem){.container{max-width:48rem}}@media(min-width:64rem){.container{max-width:64rem}}@media(min-width:80rem){.container{max-width:80rem}}@media(min-width:96rem){.container{max-width:96rem}}.mx-auto{margin-inline:auto}.-mt-\[6\.6rem\]{margin-top:-6.6rem}.-mt-px{margin-top:-1px}.mt-2{margin-top:calc(var(--spacing) * 2)}.mt-4{margin-top:calc(var(--spacing) * 4)}.mt-6{margin-top:calc(var(--spacing) * 6)}.mt-8{margin-top:calc(var(--spacing) * 8)}.mr-2{margin-right:calc(var(--spacing) * 2)}.-mb-px{margin-bottom:-1px}.mb-1{margin-bottom:calc(var(--spacing) * 1)}.mb-2{margin-bottom:calc(var(--spacing) * 2)}.mb-4{margin-bottom:calc(var(--spacing) * 4)}.mb-6{margin-bottom:calc(var(--spacing) * 6)}.-ml-8{margin-left:calc(var(--spacing) * -8)}.-ml-px{margin-left:-1px}.ml-1{margin-left:calc(var(--spacing) * 1)}.ml-2{margin-left:calc(var(--spacing) * 2)}.ml-4{margin-left:calc(var(--spacing) * 4)}.ml-12{margin-left:calc(var(--spacing) * 12)}.contents{display:contents}.flex{display:flex}.grid{display:grid}.hidden{display:none}.inline-block{display:inline-block}.inline-flex{display:inline-flex}.table{display:table}.aspect-\[335\/364\]{aspect-ratio:335/364}.h-1{height:calc(var(--spacing) * 1)}.h-1\.5{height:calc(var(--spacing) * 1.5)}.h-2{height:calc(var(--spacing) * 2)}.h-2\.5{height:calc(var(--spacing) * 2.5)}.h-3{height:calc(var(--spacing) * 3)}.h-3\.5{height:calc(var(--spacing) * 3.5)}.h-5{height:calc(var(--spacing) * 5)}.h-8{height:calc(var(--spacing) * 8)}.h-14{height:calc(var(--spacing) * 14)}.h-14\.5{height:calc(var(--spacing) * 14.5)}.h-16{height:calc(var(--spacing) * 16)}.min-h-screen{min-height:100vh}.w-1{width:calc(var(--spacing) * 1)}.w-1\.5{width:calc(var(--spacing) * 1.5)}.w-2{width:calc(var(--spacing) * 2)}.w-2\.5{width:calc(var(--spacing) * 2.5)}.w-3{width:calc(var(--spacing) * 3)}.w-3\.5{width:calc(var(--spacing) * 3.5)}.w-5{width:calc(var(--spacing) * 5)}.w-8{width:calc(var(--spacing) * 8)}.w-\[438px\]{width:438px}.w-auto{width:auto}.w-full{width:100%}.max-w-6xl{max-width:var(--container-6xl)}.max-w-\[335px\]{max-width:335px}.max-w-none{max-width:none}.max-w-xl{max-width:var(--container-xl)}.flex-1{flex:1}.shrink-0{flex-shrink:0}.translate-y-0{--tw-translate-y:calc(var(--spacing) * 0);translate:var(--tw-translate-x) var(--tw-translate-y)}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.cursor-default{cursor:default}.cursor-not-allowed{cursor:not-allowed}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-col-reverse{flex-direction:column-reverse}.items-center{align-items:center}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}.justify-items-center{justify-items:center}.gap-2{gap:calc(var(--spacing) * 2)}.gap-3{gap:calc(var(--spacing) * 3)}.gap-4{gap:calc(var(--spacing) * 4)}:where(.space-x-1>:not(:last-child)){--tw-space-x-reverse:0;margin-inline-start:calc(calc(var(--spacing) * 1) * var(--tw-space-x-reverse));margin-inline-end:calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-x-reverse)))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:3.40282e38px}.rounded-md{border-radius:var(--radius-md)}.rounded-sm{border-radius:var(--radius-sm)}.rounded-t-lg{border-top-left-radius:var(--radius-lg);border-top-right-radius:var(--radius-lg)}.rounded-l-md{border-top-left-radius:var(--radius-md);border-bottom-left-radius:var(--radius-md)}.rounded-r-md{border-top-right-radius:var(--radius-md);border-bottom-right-radius:var(--radius-md)}.rounded-br-lg{border-bottom-right-radius:var(--radius-lg)}.rounded-bl-lg{border-bottom-left-radius:var(--radius-lg)}.border{border-style:var(--tw-border-style);border-width:1px}.border-t{border-top-style:var(--tw-border-style);border-top-width:1px}.border-r{border-right-style:var(--tw-border-style);border-right-width:1px}.border-\[\#19140035\]{border-color:#19140035}.border-\[\#e3e3e0\]{border-color:#e3e3e0}.border-black{border-color:var(--color-black)}.border-gray-200{border-color:var(--color-gray-200)}.border-gray-300{border-color:var(--color-gray-300)}.border-gray-400{border-color:var(--color-gray-400)}.border-transparent{border-color:#0000}.bg-\[\#1b1b18\]{background-color:#1b1b18}.bg-\[\#FDFDFC\]{background-color:#fdfdfc}.bg-\[\#dbdbd7\]{background-color:#dbdbd7}.bg-\[\#fff2f2\]{background-color:#fff2f2}.bg-gray-100{background-color:var(--color-gray-100)}.bg-gray-200{background-color:var(--color-gray-200)}.bg-white{background-color:var(--color-white)}.p-6{padding:calc(var(--spacing) * 6)}.px-2{padding-inline:calc(var(--spacing) * 2)}.px-4{padding-inline:calc(var(--spacing) * 4)}.px-5{padding-inline:calc(var(--spacing) * 5)}.px-6{padding-inline:calc(var(--spacing) * 6)}.py-1{padding-block:calc(var(--spacing) * 1)}.py-1\.5{padding-block:calc(var(--spacing) * 1.5)}.py-2{padding-block:calc(var(--spacing) * 2)}.py-4{padding-block:calc(var(--spacing) * 4)}.pt-8{padding-top:calc(var(--spacing) * 8)}.pb-6{padding-bottom:calc(var(--spacing) * 6)}.pb-12{padding-bottom:calc(var(--spacing) * 12)}.text-center{text-align:center}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-\[13px\]{font-size:13px}.leading-5{--tw-leading:calc(var(--spacing) * 5);line-height:calc(var(--spacing) * 5)}.leading-7{--tw-leading:calc(var(--spacing) * 7);line-height:calc(var(--spacing) * 7)}.leading-\[20px\]{--tw-leading:20px;line-height:20px}.leading-normal{--tw-leading:var(--leading-normal);line-height:var(--leading-normal)}.font-medium{--tw-font-weight:var(--font-weight-medium);font-weight:var(--font-weight-medium)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-wider{--tw-tracking:var(--tracking-wider);letter-spacing:var(--tracking-wider)}.text-\[\#1B1B18\],.text-\[\#1b1b18\]{color:#1b1b18}.text-\[\#706f6c\]{color:#706f6c}.text-\[\#F3BEC7\]{color:#f3bec7}.text-\[\#F8B803\]{color:#f8b803}.text-\[\#F53003\],.text-\[\#f53003\]{color:#f53003}.text-gray-200{color:var(--color-gray-200)}.text-gray-300{color:var(--color-gray-300)}.text-gray-400{color:var(--color-gray-400)}.text-gray-500{color:var(--color-gray-500)}.text-gray-600{color:var(--color-gray-600)}.text-gray-700{color:var(--color-gray-700)}.text-gray-800{color:var(--color-gray-800)}.text-gray-900{color:var(--color-gray-900)}.text-white{color:var(--color-white)}.uppercase{text-transform:uppercase}.underline{text-decoration-line:underline}.underline-offset-4{text-underline-offset:4px}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-100{opacity:1}.mix-blend-color{mix-blend-mode:color}.mix-blend-darken{mix-blend-mode:darken}.mix-blend-hard-light{mix-blend-mode:hard-light}.mix-blend-multiply{mix-blend-mode:multiply}.shadow{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-\[0px_0px_1px_0px_rgba\(0\,0\,0\,0\.03\)\,0px_1px_2px_0px_rgba\(0\,0\,0\,0\.06\)\]{--tw-shadow:0px 0px 1px 0px var(--tw-shadow-color,#00000008), 0px 1px 2px 0px var(--tw-shadow-color,#0000000f);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-\[inset_0px_0px_0px_1px_rgba\(26\,26\,0\,0\.16\)\]{--tw-shadow:inset 0px 0px 0px 1px var(--tw-shadow-color,#1a1a0029);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.ring-gray-300{--tw-ring-color:var(--color-gray-300)}.filter{filter:var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-all{transition-property:all;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-opacity{transition-property:opacity;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.delay-200{transition-delay:.2s}.delay-300{transition-delay:.3s}.delay-400{transition-delay:.4s}.duration-150{--tw-duration:.15s;transition-duration:.15s}.duration-750{--tw-duration:.75s;transition-duration:.75s}.ease-in-out{--tw-ease:var(--ease-in-out);transition-timing-function:var(--ease-in-out)}.\[--stroke-color\:\#1B1B18\]{--stroke-color:#1b1b18}.not-has-\[nav\]\:hidden:not(:has(:is(nav))){display:none}.before\:absolute:before{content:var(--tw-content);position:absolute}.before\:top-0:before{content:var(--tw-content);top:calc(var(--spacing) * 0)}.before\:top-1\/2:before{content:var(--tw-content);top:50%}.before\:bottom-0:before{content:var(--tw-content);bottom:calc(var(--spacing) * 0)}.before\:bottom-1\/2:before{content:var(--tw-content);bottom:50%}.before\:left-\[0\.4rem\]:before{content:var(--tw-content);left:.4rem}.before\:border-l:before{content:var(--tw-content);border-left-style:var(--tw-border-style);border-left-width:1px}.before\:border-\[\#e3e3e0\]:before{content:var(--tw-content);border-color:#e3e3e0}@media(hover:hover){.hover\:border-\[\#1915014a\]:hover{border-color:#1915014a}.hover\:border-\[\#19140035\]:hover{border-color:#19140035}.hover\:border-black:hover{border-color:var(--color-black)}.hover\:bg-black:hover{background-color:var(--color-black)}.hover\:bg-gray-100:hover{background-color:var(--color-gray-100)}.hover\:text-gray-400:hover{color:var(--color-gray-400)}.hover\:text-gray-700:hover{color:var(--color-gray-700)}}.focus\:border-blue-300:focus{border-color:var(--color-blue-300)}.focus\:ring:focus{--tw-ring-shadow:var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color,currentcolor);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.focus\:outline-none:focus{--tw-outline-style:none;outline-style:none}.active\:bg-gray-100:active{background-color:var(--color-gray-100)}.active\:text-gray-500:active{color:var(--color-gray-500)}.active\:text-gray-700:active{color:var(--color-gray-700)}.active\:text-gray-800:active{color:var(--color-gray-800)}@media(min-width:40rem){.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:flex-1{flex:1}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:justify-start{justify-content:flex-start}.sm\:gap-2{gap:calc(var(--spacing) * 2)}.sm\:px-6{padding-inline:calc(var(--spacing) * 6)}.sm\:pt-0{padding-top:calc(var(--spacing) * 0)}}@media(min-width:64rem){.lg\:mt-10{margin-top:calc(var(--spacing) * 10)}.lg\:mb-0{margin-bottom:calc(var(--spacing) * 0)}.lg\:mb-6{margin-bottom:calc(var(--spacing) * 6)}.lg\:-ml-px{margin-left:-1px}.lg\:ml-0{margin-left:calc(var(--spacing) * 0)}.lg\:block{display:block}.lg\:aspect-auto{aspect-ratio:auto}.lg\:w-\[438px\]{width:438px}.lg\:max-w-4xl{max-width:var(--container-4xl)}.lg\:grow{flex-grow:1}.lg\:flex-row{flex-direction:row}.lg\:justify-center{justify-content:center}.lg\:rounded-t-none{border-top-left-radius:0;border-top-right-radius:0}.lg\:rounded-tl-lg{border-top-left-radius:var(--radius-lg)}.lg\:rounded-r-lg{border-top-right-radius:var(--radius-lg);border-bottom-right-radius:var(--radius-lg)}.lg\:rounded-br-none{border-bottom-right-radius:0}.lg\:p-8{padding:calc(var(--spacing) * 8)}.lg\:p-20{padding:calc(var(--spacing) * 20)}.lg\:px-8{padding-inline:calc(var(--spacing) * 8)}.lg\:pb-10{padding-bottom:calc(var(--spacing) * 10)}}.rtl\:flex-row-reverse:where(:dir(rtl),[dir=rtl],[dir=rtl] *){flex-direction:row-reverse}@media(prefers-color-scheme:dark){.dark\:border-\[\#3E3E3A\]{border-color:#3e3e3a}.dark\:border-\[\#eeeeec\]{border-color:#eeeeec}.dark\:border-gray-600{border-color:var(--color-gray-600)}.dark\:bg-\[\#0a0a0a\]{background-color:#0a0a0a}.dark\:bg-\[\#1D0002\]{background-color:#1d0002}.dark\:bg-\[\#3E3E3A\]{background-color:#3e3e3a}.dark\:bg-\[\#161615\]{background-color:#161615}.dark\:bg-\[\#eeeeec\]{background-color:#eeeeec}.dark\:bg-gray-700{background-color:var(--color-gray-700)}.dark\:bg-gray-800{background-color:var(--color-gray-800)}.dark\:bg-gray-900{background-color:var(--color-gray-900)}.dark\:text-\[\#1C1C1A\]{color:#1c1c1a}.dark\:text-\[\#4B0600\]{color:#4b0600}.dark\:text-\[\#391800\]{color:#391800}.dark\:text-\[\#733000\]{color:#733000}.dark\:text-\[\#A1A09A\]{color:#a1a09a}.dark\:text-\[\#EDEDEC\]{color:#ededec}.dark\:text-\[\#F61500\]{color:#f61500}.dark\:text-\[\#FF4433\]{color:#f43}.dark\:text-black{color:var(--color-black)}.dark\:text-gray-200{color:var(--color-gray-200)}.dark\:text-gray-300{color:var(--color-gray-300)}.dark\:text-gray-400{color:var(--color-gray-400)}.dark\:text-gray-600{color:var(--color-gray-600)}.dark\:mix-blend-hard-light{mix-blend-mode:hard-light}.dark\:mix-blend-normal{mix-blend-mode:normal}.dark\:shadow-\[inset_0px_0px_0px_1px_\#fffaed2d\]{--tw-shadow:inset 0px 0px 0px 1px var(--tw-shadow-color,#fffaed2d);box-shadow:var(--tw-inset-shadow),var(--tw-inset-ring-shadow),var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow)}.dark\:\[--stroke-color\:\#FF750F\]{--stroke-color:#ff750f}.dark\:before\:border-\[\#3E3E3A\]:before{content:var(--tw-content);border-color:#3e3e3a}@media(hover:hover){.dark\:hover\:border-\[\#3E3E3A\]:hover{border-color:#3e3e3a}.dark\:hover\:border-\[\#62605b\]:hover{border-color:#62605b}.dark\:hover\:border-white:hover{border-color:var(--color-white)}.dark\:hover\:bg-gray-900:hover{background-color:var(--color-gray-900)}.dark\:hover\:bg-white:hover{background-color:var(--color-white)}.dark\:hover\:text-gray-200:hover{color:var(--color-gray-200)}.dark\:hover\:text-gray-300:hover{color:var(--color-gray-300)}}.dark\:focus\:border-blue-700:focus{border-color:var(--color-blue-700)}.dark\:focus\:border-blue-800:focus{border-color:var(--color-blue-800)}.dark\:active\:bg-gray-700:active{background-color:var(--color-gray-700)}.dark\:active\:text-gray-300:active{color:var(--color-gray-300)}}@starting-style{.starting\:opacity-0{opacity:0}}@media(prefers-reduced-motion:no-preference){@starting-style{.motion-safe\:starting\:-translate-x-\[26px\]{--tw-translate-x: -26px ;translate:var(--tw-translate-x) var(--tw-translate-y)}}@starting-style{.motion-safe\:starting\:-translate-x-\[51px\]{--tw-translate-x: -51px ;translate:var(--tw-translate-x) var(--tw-translate-y)}}@starting-style{.motion-safe\:starting\:-translate-x-\[78px\]{--tw-translate-x: -78px ;translate:var(--tw-translate-x) var(--tw-translate-y)}}@starting-style{.motion-safe\:starting\:-translate-x-\[102px\]{--tw-translate-x: -102px ;translate:var(--tw-translate-x) var(--tw-translate-y)}}@starting-style{.motion-safe\:starting\:translate-y-6{--tw-translate-y:calc(var(--spacing) * 6);translate:var(--tw-translate-x) var(--tw-translate-y)}}}}@property --tw-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-y{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-z{syntax:"*";inherits:false;initial-value:0}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-space-x-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-leading{syntax:"*";inherits:false}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-shadow-color{syntax:"*";inherits:false}@property --tw-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:"*";inherits:false}@property --tw-inset-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:"*";inherits:false}@property --tw-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-ring-color{syntax:"*";inherits:false}@property --tw-inset-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-ring-inset{syntax:"*";inherits:false}@property --tw-ring-offset-width{syntax:"<length>";inherits:false;initial-value:0}@property --tw-ring-offset-color{syntax:"*";inherits:false;initial-value:#fff}@property --tw-ring-offset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-blur{syntax:"*";inherits:false}@property --tw-brightness{syntax:"*";inherits:false}@property --tw-contrast{syntax:"*";inherits:false}@property --tw-grayscale{syntax:"*";inherits:false}@property --tw-hue-rotate{syntax:"*";inherits:false}@property --tw-invert{syntax:"*";inherits:false}@property --tw-opacity{syntax:"*";inherits:false}@property --tw-saturate{syntax:"*";inherits:false}@property --tw-sepia{syntax:"*";inherits:false}@property --tw-drop-shadow{syntax:"*";inherits:false}@property --tw-drop-shadow-color{syntax:"*";inherits:false}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-drop-shadow-size{syntax:"*";inherits:false}@property --tw-duration{syntax:"*";inherits:false}@property --tw-ease{syntax:"*";inherits:false}@property --tw-content{syntax:"*";inherits:false;initial-value:""}@keyframes spin{to{transform:rotate(360deg)}}@keyframes ping{75%,to{opacity:0;transform:scale(2)}}@keyframes pulse{50%{opacity:.5}}@keyframes bounce{0%,to{animation-timing-function:cubic-bezier(.8,0,1,1);transform:translateY(-25%)}50%{animation-timing-function:cubic-bezier(0,0,.2,1);transform:none}}
-            </style>
-        @endif
-    </head>
-    <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
-        <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden">
-            @if (Route::has('login'))
-                <nav class="flex items-center justify-end gap-4">
-                    @auth
-                        <a
-                            href="{{ url('/dashboard') }}"
-                            class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal"
-                        >
-                            Dashboard
-                        </a>
-                    @else
-                        <a
-                            href="{{ route('login') }}"
-                            class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] text-[#1b1b18] border border-transparent hover:border-[#19140035] dark:hover:border-[#3E3E3A] rounded-sm text-sm leading-normal"
-                        >
-                            Log in
-                        </a>
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+                    var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+                    newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                var el = document.getElementById(e.c);
+                if (el!==null && el) el.style.height = newh+"px";
+                el = document.getElementById(e.c+"_wrapper");
+                if (el!==null && el) {
+                    el.style.height = newh+"px";
+                    el.style.display = "block";
+                }
+            } catch(e){
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };</script>
+    <style id="kirki-inline-styles">body, .elementor-element .elementor-widget-text-editor, .elementor-element .elementor-widget-icon-list .elementor-icon-list-item{color:#555555;}h1, .elementor-widget.elementor-widget-heading h1.elementor-heading-title{color:#1a1a1a;}h2, .elementor-widget.elementor-widget-heading h2.elementor-heading-title{color:#1a1a1a;}h3, .elementor-widget.elementor-widget-heading h3.elementor-heading-title{color:#1a1a1a;}h4, .elementor-widget.elementor-widget-heading h4.elementor-heading-title{color:#1a1a1a;}h5, .elementor-widget.elementor-widget-heading h5.elementor-heading-title{color:#1a1a1a;}h6, .elementor-widget.elementor-widget-heading h6.elementor-heading-title{color:#1a1a1a;}/* vietnamese */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMlhKSbpUVz0Eqq2.woff) format('woff');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMhhKSbpUVz0Eqq2.woff) format('woff');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhKSbpUVz0Eg.woff) format('woff');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }/* vietnamese */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMlhKSbpUVz0Eqq2.woff) format('woff');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMhhKSbpUVz0Eqq2.woff) format('woff');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhKSbpUVz0Eg.woff) format('woff');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }/* vietnamese */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMlhKSbpUVz0Eqq2.woff) format('woff');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMhhKSbpUVz0Eqq2.woff) format('woff');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(../wp-content/fonts/josefin-sans/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhKSbpUVz0Eg.woff) format('woff');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }</style></head>
 
-                        @if (Route::has('register'))
-                            <a
-                                href="{{ route('register') }}"
-                                class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal">
-                                Register
-                            </a>
-                        @endif
-                    @endauth
-                </nav>
-            @endif
-        </header>
-        <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
-            <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
-                <div class="text-[13px] leading-[20px] flex-1 p-6 pb-6 lg:p-20 lg:pb-10 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
-                    <h1 class="mb-1 font-medium">Let's get started</h1>
-                    <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">With so many options available to you,<br /> we suggest you start with the following:</p>
-                    <ul class="flex flex-col mb-4 lg:mb-6">
-                        <li class="flex items-center gap-4 py-2 relative before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A] before:top-1/2 before:bottom-0 before:left-[0.4rem] before:absolute">
-                            <span class="relative py-1 bg-white dark:bg-[#161615]">
-                                <span class="flex items-center justify-center rounded-full bg-[#FDFDFC] dark:bg-[#161615] shadow-[0px_0px_1px_0px_rgba(0,0,0,0.03),0px_1px_2px_0px_rgba(0,0,0,0.06)] w-3.5 h-3.5 border dark:border-[#3E3E3A] border-[#e3e3e0]">
-                                    <span class="rounded-full bg-[#dbdbd7] dark:bg-[#3E3E3A] w-1.5 h-1.5"></span>
-                                </span>
-                            </span>
-                            <span>
-                                Read the
-                                <a href="https://laravel.com/docs" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
-                                    <span>Documentation</span>
-                                    <svg
-                                        width="10"
-                                        height="11"
-                                        viewBox="0 0 10 11"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="w-2.5 h-2.5"
-                                    >
-                                        <path
-                                            d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001"
-                                            stroke="currentColor"
-                                            stroke-linecap="square"
-                                        />
-                                    </svg>
-                                </a>
-                            </span>
-                        </li>
-                        <li class="flex items-center gap-4 py-2 relative before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A] before:bottom-1/2 before:top-0 before:left-[0.4rem] before:absolute">
-                            <span class="relative py-1 bg-white dark:bg-[#161615]">
-                                <span class="flex items-center justify-center rounded-full bg-[#FDFDFC] dark:bg-[#161615] shadow-[0px_0px_1px_0px_rgba(0,0,0,0.03),0px_1px_2px_0px_rgba(0,0,0,0.06)] w-3.5 h-3.5 border dark:border-[#3E3E3A] border-[#e3e3e0]">
-                                    <span class="rounded-full bg-[#dbdbd7] dark:bg-[#3E3E3A] w-1.5 h-1.5"></span>
-                                </span>
-                            </span>
-                            <span>
-                                Watch video tutorials at
-                                <a href="https://laracasts.com" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
-                                    <span>Laracasts</span>
-                                    <svg
-                                        width="10"
-                                        height="11"
-                                        viewBox="0 0 10 11"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="w-2.5 h-2.5"
-                                    >
-                                        <path
-                                            d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001"
-                                            stroke="currentColor"
-                                            stroke-linecap="square"
-                                        />
-                                    </svg>
-                                </a>
-                            </span>
-                        </li>
-                    </ul>
-                    <ul class="flex gap-3 text-sm leading-normal">
-                        <li>
-                            <a href="https://cloud.laravel.com" target="_blank" class="inline-block dark:bg-[#eeeeec] dark:border-[#eeeeec] dark:text-[#1C1C1A] dark:hover:bg-white dark:hover:border-white hover:bg-black hover:border-black px-5 py-1.5 bg-[#1b1b18] rounded-sm border border-black text-white text-sm leading-normal">
-                                Deploy now
-                            </a>
-                        </li>
-                    </ul>
+<body class="page-template-default page page-id-5227 non-logged-in header-horizontal elementor-default elementor-kit-5 elementor-page elementor-page-5227">
 
-                    <p class="mt-6 lg:mt-10 text-[#706f6c] dark:text-[#A1A09A]">
-                        v{{ app()->version() }}
-                        <a href="https://github.com/laravel/framework/blob/13.x/CHANGELOG.md" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
-                            <span>View changelog</span>
-                            <svg
-                                width="10"
-                                height="11"
-                                viewBox="0 0 10 11"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                class="w-2.5 h-2.5"
-                            >
-                                <path
-                                    d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001"
-                                    stroke="currentColor"
-                                    stroke-linecap="square"
-                                />
-                            </svg>
-                        </a>
-                    </p>
+<div id="page" class="site">
+
+    <!-- #site-header-open -->
+    <header id="site-header" class="site-header header-static">
+
+        <!-- #header-desktop-open -->
+
+        <div class="header-desktop">		<div data-elementor-type="wp-post" data-elementor-id="2846" class="elementor elementor-2846">
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-c03d6b9 is-fixed elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="c03d6b9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a467766" data-id="a467766" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-8f094dd elementor-widget elementor-widget-ilogo" data-id="8f094dd" data-element_type="widget" data-widget_type="ilogo.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="the-logo">
+                                            <a href="../index.html">
+                                                <img src="../wp-content/uploads/2020/04/deconext_logo_white_transp.png" alt="Deconext">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-00d6985 ot-flex-column-horizontal" data-id="00d6985" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-4369b2d elementor-widget elementor-widget-imenu" data-id="4369b2d" data-element_type="widget" data-widget_type="imenu.default">
+                                    <div class="elementor-widget-container">
+                                        <nav id="site-navigation" class="main-navigation  no-line">
+                                            <ul id="primary-menu" class="menu"><li id="menu-item-4591" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4591"><a href="../index.html">Главная</a></li>
+                                                <li id="menu-item-2931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2931"><a href="../about-us/index.html">О компании</a></li>
+                                                <li id="menu-item-6795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6795"><a href="#">Продукция</a>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-6787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6787"><a href="index.html">Столешницы</a></li>
+                                                        <li id="menu-item-6788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6788"><a href="index.html">Стеновые панели</a></li>
+                                                        <li id="menu-item-6789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6789"><a href="index.html">Фасадные полотна</a></li>
+                                                        <li id="menu-item-6790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6790"><a href="index.html">Столешницы и плиты Compact</a></li>
+                                                        <li id="menu-item-6791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6791"><a href="index.html">ДСП</a></li>
+                                                        <li id="menu-item-6792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6792"><a href="index.html">Текстурированные плиты</a></li>
+                                                        <li id="menu-item-6793" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6793"><a href="index.html">Декоративный пластик</a></li>
+                                                        <li id="menu-item-6794" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6794"><a href="index.html">ЛДСП</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li id="menu-item-4110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4110"><a href="../decors/index.html">Серии декоров</a>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-5110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5110"><a href="decors-elga1/index.html">elga1</a></li>
+                                                        <li id="menu-item-5111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5111"><a href="decors-elga2/index.html">elga2</a></li>
+                                                        <li id="menu-item-5112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5112"><a href="decors-elga3/index.html">elga3</a></li>
+                                                        <li id="menu-item-5113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5113"><a href="decors-duco1/index.html">duco1</a></li>
+                                                        <li id="menu-item-5114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5114"><a href="decors-duco2/index.html">duco2</a></li>
+                                                        <li id="menu-item-5115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5115"><a href="decors-duco3/index.html">duco3</a></li>
+                                                        <li id="menu-item-5116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5116"><a href="decors-mobius/index.html">möbius</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li id="menu-item-4687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4687"><a href="#">Поддержка</a>
+                                                    <ul class="sub-menu">
+                                                        <li id="menu-item-5384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5384"><a href="../dokumentacija/index.html">Документация</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li id="menu-item-2945" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2945"><a href="../contacts/index.html">Контакты</a></li>
+                                            </ul>				</nav>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-3358015 elementor-hidden-tablet elementor-hidden-mobile e-transform elementor-widget elementor-widget-shortcode" data-id="3358015" data-element_type="widget" data-settings="{&quot;_transform_scale_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.8,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="shortcode.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-shortcode"><div class="asl_w_container asl_w_container_1">
+                                                <div id='ajaxsearchlite1'
+                                                     data-id="1"
+                                                     data-instance="1"
+                                                     class="asl_w asl_m asl_m_1 asl_m_1_1">
+                                                    <div class="probox">
+
+
+                                                        <button class='promagnifier' aria-label="Search magnifier button">
+                                                            <div class='innericon'>
+                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="22" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+					<path d="M460.355,421.59L353.844,315.078c20.041-27.553,31.885-61.437,31.885-98.037
+						C385.729,124.934,310.793,50,218.686,50C126.58,50,51.645,124.934,51.645,217.041c0,92.106,74.936,167.041,167.041,167.041
+						c34.912,0,67.352-10.773,94.184-29.158L419.945,462L460.355,421.59z M100.631,217.041c0-65.096,52.959-118.056,118.055-118.056
+						c65.098,0,118.057,52.959,118.057,118.056c0,65.096-52.959,118.056-118.057,118.056C153.59,335.097,100.631,282.137,100.631,217.041
+						z"/>
+				</svg>
+                                                            </div>
+                                                        </button>
+
+
+
+                                                        <div class='prosettings' style='display:none;' data-opened=0>
+                                                            <div class='innericon'>
+                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="22" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+					<polygon transform = "rotate(90 256 256)" points="142.332,104.886 197.48,50 402.5,256 197.48,462 142.332,407.113 292.727,256 "/>
+				</svg>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class='proinput'>
+                                                            <form role="search" action='#' autocomplete="off"
+                                                                  aria-label="Search form">
+                                                                <input aria-label="Search input"
+                                                                       type='search' class='orig'
+                                                                       name='phrase'
+                                                                       placeholder='Найти'
+                                                                       value=''
+                                                                       autocomplete="off"/>
+                                                                <input aria-label="Search autocomplete input"
+                                                                       type='text'
+                                                                       class='autocomplete'
+                                                                       tabindex="-1"
+                                                                       name='phrase'
+                                                                       value=''
+                                                                       autocomplete="off" disabled/>
+                                                                <input type='submit' value="Start search" style='width:0; height: 0; visibility: hidden;'>
+                                                            </form>
+                                                        </div>
+
+
+
+                                                        <div class='proloading'>
+
+                                                            <div class="asl_loader"><div class="asl_loader-inner asl_simple-circle"></div></div>
+
+                                                        </div>
+
+
+
+                                                    </div>	</div>
+                                                <div class='asl_data_container' style="display:none !important;">
+                                                    <div class="asl_init_data wpdreams_asl_data_ct"
+                                                         style="display:none !important;"
+                                                         id="asl_init_id_1"
+                                                         data-asl-id="1"
+                                                         data-asl-instance="1"
+                                                         data-asldata="ew0KCSJob21ldXJsIjogImh0dHBzOi8vYW5udC5ydS9kZWNvMS8iLA0KCSJyZXN1bHRzdHlwZSI6ICJ2ZXJ0aWNhbCIsDQoJInJlc3VsdHNwb3NpdGlvbiI6ICJob3ZlciIsDQoJIml0ZW1zY291bnQiOiA0LA0KCSJjaGFyY291bnQiOiAgMCwNCgkiaGlnaGxpZ2h0IjogMCwNCgkiaGlnaGxpZ2h0d2hvbGV3b3JkcyI6IDEsDQoJInNpbmdsZUhpZ2hsaWdodCI6IDAsDQoJInNjcm9sbFRvUmVzdWx0cyI6IHsNCgkJImVuYWJsZWQiOiAwLA0KCQkib2Zmc2V0IjogMA0KCX0sDQoJInJlc3VsdGFyZWFjbGlja2FibGUiOiAxLA0KCSJhdXRvY29tcGxldGUiOiB7DQoJCSJlbmFibGVkIiA6IDAsDQoJCSJsYW5nIiA6ICJlbiIsDQoJCSJ0cmlnZ2VyX2NoYXJjb3VudCIgOiAwDQoJfSwNCgkibW9iaWxlIjogew0KCQkibWVudV9zZWxlY3RvciI6ICIjbWVudS10b2dnbGUiDQoJfSwNCgkidHJpZ2dlciI6IHsNCgkJImNsaWNrIjogImFqYXhfc2VhcmNoIiwNCgkJImNsaWNrX2xvY2F0aW9uIjogInNhbWUiLA0KCQkidXBkYXRlX2hyZWYiOiAwLA0KCQkicmV0dXJuIjogImFqYXhfc2VhcmNoIiwNCgkJInJldHVybl9sb2NhdGlvbiI6ICJzYW1lIiwNCgkJImZhY2V0IjogMSwNCgkJInR5cGUiOiAxLA0KCQkicmVkaXJlY3RfdXJsIjogIj9zPXtwaHJhc2V9IiwNCgkJImRlbGF5IjogMzAwDQoJfSwNCiAgICAiYW5pbWF0aW9ucyI6IHsNCiAgICAgICAgInBjIjogew0KICAgICAgICAgICAgInNldHRpbmdzIjogew0KICAgICAgICAgICAgICAgICJhbmltIiA6ICJmYWRlZHJvcCIsDQogICAgICAgICAgICAgICAgImR1ciIgIDogMzAwDQogICAgICAgICAgICB9LA0KICAgICAgICAgICAgInJlc3VsdHMiIDogew0KCQkJCSJhbmltIiA6ICJmYWRlZHJvcCIsDQoJCQkJImR1ciIgIDogMzAwDQogICAgICAgICAgICB9LA0KICAgICAgICAgICAgIml0ZW1zIiA6ICJ2b2lkYW5pbSINCiAgICAgICAgfSwNCiAgICAgICAgIm1vYiI6IHsNCiAgICAgICAgICAgICJzZXR0aW5ncyI6IHsNCiAgICAgICAgICAgICAgICAiYW5pbSIgOiAiZmFkZWRyb3AiLA0KICAgICAgICAgICAgICAgICJkdXIiICA6IDMwMA0KICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICJyZXN1bHRzIiA6IHsNCgkJCQkiYW5pbSIgOiAiZmFkZWRyb3AiLA0KCQkJCSJkdXIiICA6IDMwMA0KICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICJpdGVtcyIgOiAidm9pZGFuaW0iDQogICAgICAgIH0NCiAgICB9LA0KCSJhdXRvcCI6IHsNCgkJInN0YXRlIjogImRpc2FibGVkIiwNCgkJInBocmFzZSI6ICIiLA0KCQkiY291bnQiOiAxCX0sDQogICAgInJlc1BhZ2UiOiB7DQogICAgICAgICJ1c2VBamF4IjogMCwNCiAgICAgICAgInNlbGVjdG9yIjogIiNtYWluIiwNCiAgICAgICAgInRyaWdnZXJfdHlwZSI6IDEsDQogICAgICAgICJ0cmlnZ2VyX2ZhY2V0IjogMSwNCiAgICAgICAgInRyaWdnZXJfbWFnbmlmaWVyIjogMCwNCiAgICAgICAgInRyaWdnZXJfcmV0dXJuIjogMCAgICB9LA0KCSJyZXN1bHRzU25hcFRvIjogImxlZnQiLA0KICAgICJyZXN1bHRzIjogew0KICAgICAgICAid2lkdGgiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF90YWJsZXQiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF9waG9uZSI6ICJhdXRvIg0KICAgIH0sDQoJInNldHRpbmdzaW1hZ2Vwb3MiOiAicmlnaHQiLA0KCSJjbG9zZU9uRG9jQ2xpY2siOiAxLA0KCSJvdmVycmlkZXdwZGVmYXVsdCI6IDAsDQoJIm92ZXJyaWRlX21ldGhvZCI6ICJnZXQiDQp9DQo="></div>	<div id="asl_hidden_data">
+                                                        <svg style="position:absolute" height="0" width="0">
+                                                            <filter id="aslblur">
+                                                                <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+                                                            </filter>
+                                                        </svg>
+                                                        <svg style="position:absolute" height="0" width="0">
+                                                            <filter id="no_aslblur"></filter>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div id='ajaxsearchliteres1'
+                                                     class='vertical wpdreams_asl_results asl_w asl_r asl_r_1 asl_r_1_1'>
+
+
+                                                    <div class="results">
+
+
+                                                        <div class="resdrg">
+                                                        </div>
+
+
+                                                    </div>
+
+
+
+                                                </div>
+
+                                                <div id='__original__ajaxsearchlitesettings1'
+                                                     data-id="1"
+                                                     class="searchsettings wpdreams_asl_settings asl_w asl_s asl_s_1">
+                                                    <form name='options'
+                                                          aria-label="Search settings form"
+                                                          autocomplete = 'off'>
+
+
+
+                                                        <input type="hidden" name="filters_changed" style="display:none;" value="0">
+                                                        <input type="hidden" name="filters_initial" style="display:none;" value="1">
+
+                                                        <div class="asl_option_inner hiddend">
+                                                            <input type='hidden' name='qtranslate_lang' id='qtranslate_lang1'
+                                                                   value='0'/>
+                                                        </div>
+
+
+
+                                                        <fieldset class="asl_sett_scroll">
+                                                            <legend style="display: none;">Generic selectors</legend>
+                                                            <div class="asl_option hiddend">
+                                                                <div class="asl_option_inner">
+                                                                    <input type="checkbox" value="exact"
+                                                                           aria-label="Exact matches only"
+                                                                           name="asl_gen[]"  checked="checked"/>
+                                                                    <div class="asl_option_checkbox"></div>
+                                                                </div>
+                                                                <div class="asl_option_label">
+                                                                    Exact matches only			</div>
+                                                            </div>
+                                                            <div class="asl_option hiddend">
+                                                                <div class="asl_option_inner">
+                                                                    <input type="checkbox" value="title"
+                                                                           aria-label="Search in title"
+                                                                           name="asl_gen[]"  checked="checked"/>
+                                                                    <div class="asl_option_checkbox"></div>
+                                                                </div>
+                                                                <div class="asl_option_label">
+                                                                    Search in title			</div>
+                                                            </div>
+                                                            <div class="asl_option hiddend">
+                                                                <div class="asl_option_inner">
+                                                                    <input type="checkbox" value="content"
+                                                                           aria-label="Search in content"
+                                                                           name="asl_gen[]" />
+                                                                    <div class="asl_option_checkbox"></div>
+                                                                </div>
+                                                                <div class="asl_option_label">
+                                                                    Search in content			</div>
+                                                            </div>
+                                                            <div class="asl_option_inner hiddend">
+                                                                <input type="checkbox" value="excerpt"
+                                                                       aria-label="Search in excerpt"
+                                                                       name="asl_gen[]" />
+                                                                <div class="asl_option_checkbox"></div>
+                                                            </div>
+                                                        </fieldset>
+                                                        <fieldset class="asl_sett_scroll">
+                                                            <legend style="display: none;">Post Type Selectors</legend>
+                                                            <div class="asl_option_inner hiddend">
+                                                                <input type="checkbox" value="post"
+                                                                       aria-label="Hidden option, ignore please"
+                                                                       name="customset[]" checked="checked"/>
+                                                            </div>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                            </div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- #header-desktop-close -->
+
+        <!-- #header-mobile-open -->
+
+        <div class="header-mobile">		<div data-elementor-type="wp-post" data-elementor-id="3992" class="elementor elementor-3992">
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-3621e9b elementor-section-full_width is-fixed style-2 elementor-section-height-min-height elementor-section-content-middle elementor-section-height-default elementor-section-items-middle" data-id="3621e9b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7e7f638 ot-flex-column-horizontal" data-id="7e7f638" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-505cb4d elementor-widget elementor-widget-imenu_mobile" data-id="505cb4d" data-element_type="widget" data-widget_type="imenu_mobile.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="octf-menu-mobile octf-cta-header">
+                                            <div id="mmenu-toggle" class="mmenu-toggle">
+                                                <button><i class="ot-flaticon-menu"></i></button>
+                                            </div>
+                                            <div class="site-overlay mmenu-overlay"></div>
+                                            <div id="mmenu-wrapper" class="mmenu-wrapper on-left">
+                                                <div class="mmenu-inner">
+                                                    <a class="mmenu-close" href="#"><i class="ot-flaticon-right-arrow"></i></a>
+                                                    <div class="mobile-nav">
+                                                        <ul id="menu-main-menu" class="mobile_mainmenu none-style"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4591"><a href="../index.html">Главная</a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2931"><a href="../about-us/index.html">О компании</a></li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6795"><a href="#">Продукция</a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6787"><a href="index.html">Столешницы</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6788"><a href="index.html">Стеновые панели</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6789"><a href="index.html">Фасадные полотна</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6790"><a href="index.html">Столешницы и плиты Compact</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6791"><a href="index.html">ДСП</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6792"><a href="index.html">Текстурированные плиты</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6793"><a href="index.html">Декоративный пластик</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6794"><a href="index.html">ЛДСП</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4110"><a href="../decors/index.html">Серии декоров</a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5110"><a href="decors-elga1/index.html">elga1</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5111"><a href="decors-elga2/index.html">elga2</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5112"><a href="decors-elga3/index.html">elga3</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5113"><a href="decors-duco1/index.html">duco1</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5114"><a href="decors-duco2/index.html">duco2</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5115"><a href="decors-duco3/index.html">duco3</a></li>
+                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5116"><a href="decors-mobius/index.html">möbius</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4687"><a href="#">Поддержка</a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5384"><a href="../dokumentacija/index.html">Документация</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2945"><a href="../contacts/index.html">Контакты</a></li>
+                                                        </ul>						</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-e6e2aa5 ot-flex-column-vertical" data-id="e6e2aa5" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-2ca3e41 elementor-widget elementor-widget-ilogo" data-id="2ca3e41" data-element_type="widget" data-widget_type="ilogo.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="the-logo">
+                                            <a href="../index.html">
+                                                <img src="../wp-content/uploads/2020/04/2022-07-deconext_corp_logo_white.png" alt="Deconext">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-6e545d1 ot-flex-column-horizontal" data-id="6e545d1" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-cfe2e34 elementor-widget elementor-widget-isearch" data-id="cfe2e34" data-element_type="widget" data-widget_type="isearch.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="octf-search octf-cta-header">
+                                            <div class="toggle_search octf-cta-icons">
+                                                <i class="ot-flaticon-search"></i>
+                                            </div>
+                                            <!-- Form Search on Header -->
+                                            <div class="h-search-form-field">
+                                                <div class="h-search-form-inner">
+                                                    <form role="search" method="get" class="search-form" action="../index.html" >
+                                                        <label><span class="screen-reader-text">Search for:</span>
+                                                            <input type="search" class="search-field" placeholder="SEARCH..." value="" name="s" /></label>
+                                                        <button type="submit" class="search-submit"><i class="ot-flaticon-search"></i></button>
+                                                    </form>					</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>    <!-- #header-mobile-close -->
+
+    </header>
+    <!-- #site-header-close -->
+    <!-- #side-panel-open -->
+    <div id="side-panel" class="side-panel ">
+        <a href="#" class="side-panel-close"><i class="ot-flaticon-close-1"></i></a>
+        <div class="side-panel-block">
+            <div data-elementor-type="wp-post" data-elementor-id="2846" class="elementor elementor-2846">
+                <section class="elementor-section elementor-top-section elementor-element elementor-element-c03d6b9 is-fixed elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="c03d6b9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a467766" data-id="a467766" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-8f094dd elementor-widget elementor-widget-ilogo" data-id="8f094dd" data-element_type="widget" data-widget_type="ilogo.default">
+                                    <div class="elementor-widget-container">
+
+                                        <div class="the-logo">
+                                            <a href="../index.html">
+                                                <img src="../wp-content/uploads/2020/04/deconext_logo_white_transp.png" alt="Deconext">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-00d6985 ot-flex-column-horizontal" data-id="00d6985" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-4369b2d elementor-widget elementor-widget-imenu" data-id="4369b2d" data-element_type="widget" data-widget_type="imenu.default">
+                                    <div class="elementor-widget-container">
+                                        <nav id="site-navigation" class="main-navigation  no-line">
+                                            <ul id="primary-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4591"><a href="../index.html">Главная</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2931"><a href="../about-us/index.html">О компании</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6795"><a href="#">Продукция</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6787"><a href="index.html">Столешницы</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6788"><a href="index.html">Стеновые панели</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6789"><a href="index.html">Фасадные полотна</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6790"><a href="index.html">Столешницы и плиты Compact</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6791"><a href="index.html">ДСП</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6792"><a href="index.html">Текстурированные плиты</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6793"><a href="index.html">Декоративный пластик</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6794"><a href="index.html">ЛДСП</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4110"><a href="../decors/index.html">Серии декоров</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5110"><a href="decors-elga1/index.html">elga1</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5111"><a href="decors-elga2/index.html">elga2</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5112"><a href="decors-elga3/index.html">elga3</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5113"><a href="decors-duco1/index.html">duco1</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5114"><a href="decors-duco2/index.html">duco2</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5115"><a href="decors-duco3/index.html">duco3</a></li>
+                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5116"><a href="decors-mobius/index.html">möbius</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4687"><a href="#">Поддержка</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5384"><a href="../dokumentacija/index.html">Документация</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2945"><a href="../contacts/index.html">Контакты</a></li>
+                                            </ul>				</nav>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-3358015 elementor-hidden-tablet elementor-hidden-mobile e-transform elementor-widget elementor-widget-shortcode" data-id="3358015" data-element_type="widget" data-settings="{&quot;_transform_scale_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.8,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="shortcode.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-shortcode"><div class="asl_w_container asl_w_container_2">
+                                                <div id='ajaxsearchlite2'
+                                                     data-id="2"
+                                                     data-instance="1"
+                                                     class="asl_w asl_m asl_m_2 asl_m_2_1">
+                                                    <div class="probox">
+
+
+                                                        <button class='promagnifier' aria-label="Search magnifier button">
+                                                            <div class='innericon'>
+                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="22" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+					<path d="M460.355,421.59L353.844,315.078c20.041-27.553,31.885-61.437,31.885-98.037
+						C385.729,124.934,310.793,50,218.686,50C126.58,50,51.645,124.934,51.645,217.041c0,92.106,74.936,167.041,167.041,167.041
+						c34.912,0,67.352-10.773,94.184-29.158L419.945,462L460.355,421.59z M100.631,217.041c0-65.096,52.959-118.056,118.055-118.056
+						c65.098,0,118.057,52.959,118.057,118.056c0,65.096-52.959,118.056-118.057,118.056C153.59,335.097,100.631,282.137,100.631,217.041
+						z"/>
+				</svg>
+                                                            </div>
+                                                        </button>
+
+
+
+                                                        <div class='prosettings' style='display:none;' data-opened=0>
+                                                            <div class='innericon'>
+                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22" height="22" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+					<polygon transform = "rotate(90 256 256)" points="142.332,104.886 197.48,50 402.5,256 197.48,462 142.332,407.113 292.727,256 "/>
+				</svg>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class='proinput'>
+                                                            <form role="search" action='#' autocomplete="off"
+                                                                  aria-label="Search form">
+                                                                <input aria-label="Search input"
+                                                                       type='search' class='orig'
+                                                                       name='phrase'
+                                                                       placeholder='Найти'
+                                                                       value=''
+                                                                       autocomplete="off"/>
+                                                                <input aria-label="Search autocomplete input"
+                                                                       type='text'
+                                                                       class='autocomplete'
+                                                                       tabindex="-1"
+                                                                       name='phrase'
+                                                                       value=''
+                                                                       autocomplete="off" disabled/>
+                                                                <input type='submit' value="Start search" style='width:0; height: 0; visibility: hidden;'>
+                                                            </form>
+                                                        </div>
+
+
+
+                                                        <div class='proloading'>
+
+                                                            <div class="asl_loader"><div class="asl_loader-inner asl_simple-circle"></div></div>
+
+                                                        </div>
+
+
+
+                                                    </div>	</div>
+                                                <div class='asl_data_container' style="display:none !important;">
+                                                    <div class="asl_init_data wpdreams_asl_data_ct"
+                                                         style="display:none !important;"
+                                                         id="asl_init_id_2"
+                                                         data-asl-id="2"
+                                                         data-asl-instance="1"
+                                                         data-asldata="ew0KCSJob21ldXJsIjogImh0dHBzOi8vYW5udC5ydS9kZWNvMS8iLA0KCSJyZXN1bHRzdHlwZSI6ICJ2ZXJ0aWNhbCIsDQoJInJlc3VsdHNwb3NpdGlvbiI6ICJob3ZlciIsDQoJIml0ZW1zY291bnQiOiA0LA0KCSJjaGFyY291bnQiOiAgMCwNCgkiaGlnaGxpZ2h0IjogMCwNCgkiaGlnaGxpZ2h0d2hvbGV3b3JkcyI6IDEsDQoJInNpbmdsZUhpZ2hsaWdodCI6IDAsDQoJInNjcm9sbFRvUmVzdWx0cyI6IHsNCgkJImVuYWJsZWQiOiAwLA0KCQkib2Zmc2V0IjogMA0KCX0sDQoJInJlc3VsdGFyZWFjbGlja2FibGUiOiAxLA0KCSJhdXRvY29tcGxldGUiOiB7DQoJCSJlbmFibGVkIiA6IDAsDQoJCSJsYW5nIiA6ICJlbiIsDQoJCSJ0cmlnZ2VyX2NoYXJjb3VudCIgOiAwDQoJfSwNCgkibW9iaWxlIjogew0KCQkibWVudV9zZWxlY3RvciI6ICIjbWVudS10b2dnbGUiDQoJfSwNCgkidHJpZ2dlciI6IHsNCgkJImNsaWNrIjogImFqYXhfc2VhcmNoIiwNCgkJImNsaWNrX2xvY2F0aW9uIjogInNhbWUiLA0KCQkidXBkYXRlX2hyZWYiOiAwLA0KCQkicmV0dXJuIjogImFqYXhfc2VhcmNoIiwNCgkJInJldHVybl9sb2NhdGlvbiI6ICJzYW1lIiwNCgkJImZhY2V0IjogMSwNCgkJInR5cGUiOiAxLA0KCQkicmVkaXJlY3RfdXJsIjogIj9zPXtwaHJhc2V9IiwNCgkJImRlbGF5IjogMzAwDQoJfSwNCiAgICAiYW5pbWF0aW9ucyI6IHsNCiAgICAgICAgInBjIjogew0KICAgICAgICAgICAgInNldHRpbmdzIjogew0KICAgICAgICAgICAgICAgICJhbmltIiA6ICJmYWRlZHJvcCIsDQogICAgICAgICAgICAgICAgImR1ciIgIDogMzAwDQogICAgICAgICAgICB9LA0KICAgICAgICAgICAgInJlc3VsdHMiIDogew0KCQkJCSJhbmltIiA6ICJmYWRlZHJvcCIsDQoJCQkJImR1ciIgIDogMzAwDQogICAgICAgICAgICB9LA0KICAgICAgICAgICAgIml0ZW1zIiA6ICJ2b2lkYW5pbSINCiAgICAgICAgfSwNCiAgICAgICAgIm1vYiI6IHsNCiAgICAgICAgICAgICJzZXR0aW5ncyI6IHsNCiAgICAgICAgICAgICAgICAiYW5pbSIgOiAiZmFkZWRyb3AiLA0KICAgICAgICAgICAgICAgICJkdXIiICA6IDMwMA0KICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICJyZXN1bHRzIiA6IHsNCgkJCQkiYW5pbSIgOiAiZmFkZWRyb3AiLA0KCQkJCSJkdXIiICA6IDMwMA0KICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICJpdGVtcyIgOiAidm9pZGFuaW0iDQogICAgICAgIH0NCiAgICB9LA0KCSJhdXRvcCI6IHsNCgkJInN0YXRlIjogImRpc2FibGVkIiwNCgkJInBocmFzZSI6ICIiLA0KCQkiY291bnQiOiAxCX0sDQogICAgInJlc1BhZ2UiOiB7DQogICAgICAgICJ1c2VBamF4IjogMCwNCiAgICAgICAgInNlbGVjdG9yIjogIiNtYWluIiwNCiAgICAgICAgInRyaWdnZXJfdHlwZSI6IDEsDQogICAgICAgICJ0cmlnZ2VyX2ZhY2V0IjogMSwNCiAgICAgICAgInRyaWdnZXJfbWFnbmlmaWVyIjogMCwNCiAgICAgICAgInRyaWdnZXJfcmV0dXJuIjogMCAgICB9LA0KCSJyZXN1bHRzU25hcFRvIjogImxlZnQiLA0KICAgICJyZXN1bHRzIjogew0KICAgICAgICAid2lkdGgiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF90YWJsZXQiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF9waG9uZSI6ICJhdXRvIg0KICAgIH0sDQoJInNldHRpbmdzaW1hZ2Vwb3MiOiAicmlnaHQiLA0KCSJjbG9zZU9uRG9jQ2xpY2siOiAxLA0KCSJvdmVycmlkZXdwZGVmYXVsdCI6IDAsDQoJIm92ZXJyaWRlX21ldGhvZCI6ICJnZXQiDQp9DQo="></div>	</div>
+
+                                                <div id='ajaxsearchliteres2'
+                                                     class='vertical wpdreams_asl_results asl_w asl_r asl_r_2 asl_r_2_1'>
+
+
+                                                    <div class="results">
+
+
+                                                        <div class="resdrg">
+                                                        </div>
+
+
+                                                    </div>
+
+
+
+                                                </div>
+
+                                                <div id='__original__ajaxsearchlitesettings2'
+                                                     data-id="2"
+                                                     class="searchsettings wpdreams_asl_settings asl_w asl_s asl_s_2">
+                                                    <form name='options'
+                                                          aria-label="Search settings form"
+                                                          autocomplete = 'off'>
+
+
+
+                                                        <input type="hidden" name="filters_changed" style="display:none;" value="0">
+                                                        <input type="hidden" name="filters_initial" style="display:none;" value="1">
+
+                                                        <div class="asl_option_inner hiddend">
+                                                            <input type='hidden' name='qtranslate_lang' id='qtranslate_lang2'
+                                                                   value='0'/>
+                                                        </div>
+
+
+
+                                                        <fieldset class="asl_sett_scroll">
+                                                            <legend style="display: none;">Generic selectors</legend>
+                                                            <div class="asl_option hiddend">
+                                                                <div class="asl_option_inner">
+                                                                    <input type="checkbox" value="exact"
+                                                                           aria-label="Exact matches only"
+                                                                           name="asl_gen[]"  checked="checked"/>
+                                                                    <div class="asl_option_checkbox"></div>
+                                                                </div>
+                                                                <div class="asl_option_label">
+                                                                    Exact matches only			</div>
+                                                            </div>
+                                                            <div class="asl_option hiddend">
+                                                                <div class="asl_option_inner">
+                                                                    <input type="checkbox" value="title"
+                                                                           aria-label="Search in title"
+                                                                           name="asl_gen[]"  checked="checked"/>
+                                                                    <div class="asl_option_checkbox"></div>
+                                                                </div>
+                                                                <div class="asl_option_label">
+                                                                    Search in title			</div>
+                                                            </div>
+                                                            <div class="asl_option hiddend">
+                                                                <div class="asl_option_inner">
+                                                                    <input type="checkbox" value="content"
+                                                                           aria-label="Search in content"
+                                                                           name="asl_gen[]" />
+                                                                    <div class="asl_option_checkbox"></div>
+                                                                </div>
+                                                                <div class="asl_option_label">
+                                                                    Search in content			</div>
+                                                            </div>
+                                                            <div class="asl_option_inner hiddend">
+                                                                <input type="checkbox" value="excerpt"
+                                                                       aria-label="Search in excerpt"
+                                                                       name="asl_gen[]" />
+                                                                <div class="asl_option_checkbox"></div>
+                                                            </div>
+                                                        </fieldset>
+                                                        <fieldset class="asl_sett_scroll">
+                                                            <legend style="display: none;">Post Type Selectors</legend>
+                                                            <div class="asl_option_inner hiddend">
+                                                                <input type="checkbox" value="post"
+                                                                       aria-label="Hidden option, ignore please"
+                                                                       name="customset[]" checked="checked"/>
+                                                            </div>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                            </div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- #side-panel-close --><!-- #site-content-open -->
+    <div id="content" class="site-content">
+
+        <div class="page-header dtable text-center header-static"  style="background-image: url(../wp-content/uploads/2023/07/g154rry9cg3rzy28736ryfxxn901bu6z-scaled.jpg);" >
+            <div class="dcell">
+                <div class="container">
+                    <h1 class="page-title">Декоры</h1>
                 </div>
-                <div class="bg-[#fff2f2] dark:bg-[#1D0002] relative lg:-ml-px -mb-px lg:mb-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg aspect-[335/364] lg:aspect-auto w-full lg:w-[438px] shrink-0 overflow-hidden">
-                    {{-- Laravel Logo --}}
-                    <svg class="w-full text-[#F53003] dark:text-[#F61500] transition-all translate-y-0 opacity-100 max-w-none duration-750 starting:opacity-0 motion-safe:starting:translate-y-6" viewBox="0 0 438 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.2036 -3H0V102.197H49.5189V86.7187H17.2036V-3Z" fill="currentColor" />
-                        <path d="M110.256 41.6337C108.061 38.1275 104.945 35.3731 100.905 33.3681C96.8667 31.3647 92.8016 30.3618 88.7131 30.3618C83.4247 30.3618 78.5885 31.3389 74.201 33.2923C69.8111 35.2456 66.0474 37.928 62.9059 41.3333C59.7643 44.7401 57.3198 48.6726 55.5754 53.1293C53.8287 57.589 52.9572 62.274 52.9572 67.1813C52.9572 72.1925 53.8287 76.8995 55.5754 81.3069C57.3191 85.7173 59.7636 89.6241 62.9059 93.0293C66.0474 96.4361 69.8119 99.1155 74.201 101.069C78.5885 103.022 83.4247 103.999 88.7131 103.999C92.8016 103.999 96.8667 102.997 100.905 100.994C104.945 98.9911 108.061 96.2359 110.256 92.7282V102.195H126.563V32.1642H110.256V41.6337ZM108.76 75.7472C107.762 78.4531 106.366 80.8078 104.572 82.8112C102.776 84.8161 100.606 86.4183 98.0637 87.6206C95.5202 88.823 92.7004 89.4238 89.6103 89.4238C86.5178 89.4238 83.7252 88.823 81.2324 87.6206C78.7388 86.4183 76.5949 84.8161 74.7998 82.8112C73.004 80.8078 71.6319 78.4531 70.6856 75.7472C69.7356 73.0421 69.2644 70.1868 69.2644 67.1821C69.2644 64.1758 69.7356 61.3205 70.6856 58.6154C71.6319 55.9102 73.004 53.5571 74.7998 51.5522C76.5949 49.5495 78.738 47.9451 81.2324 46.7427C83.7252 45.5404 86.5178 44.9396 89.6103 44.9396C92.7012 44.9396 95.5202 45.5404 98.0637 46.7427C100.606 47.9451 102.776 49.5487 104.572 51.5522C106.367 53.5571 107.762 55.9102 108.76 58.6154C109.756 61.3205 110.256 64.1758 110.256 67.1821C110.256 70.1868 109.756 73.0421 108.76 75.7472Z" fill="currentColor" />
-                        <path d="M242.805 41.6337C240.611 38.1275 237.494 35.3731 233.455 33.3681C229.416 31.3647 225.351 30.3618 221.262 30.3618C215.974 30.3618 211.138 31.3389 206.75 33.2923C202.36 35.2456 198.597 37.928 195.455 41.3333C192.314 44.7401 189.869 48.6726 188.125 53.1293C186.378 57.589 185.507 62.274 185.507 67.1813C185.507 72.1925 186.378 76.8995 188.125 81.3069C189.868 85.7173 192.313 89.6241 195.455 93.0293C198.597 96.4361 202.361 99.1155 206.75 101.069C211.138 103.022 215.974 103.999 221.262 103.999C225.351 103.999 229.416 102.997 233.455 100.994C237.494 98.9911 240.611 96.2359 242.805 92.7282V102.195H259.112V32.1642H242.805V41.6337ZM241.31 75.7472C240.312 78.4531 238.916 80.8078 237.122 82.8112C235.326 84.8161 233.156 86.4183 230.614 87.6206C228.07 88.823 225.251 89.4238 222.16 89.4238C219.068 89.4238 216.275 88.823 213.782 87.6206C211.289 86.4183 209.145 84.8161 207.35 82.8112C205.554 80.8078 204.182 78.4531 203.236 75.7472C202.286 73.0421 201.814 70.1868 201.814 67.1821C201.814 64.1758 202.286 61.3205 203.236 58.6154C204.182 55.9102 205.554 53.5571 207.35 51.5522C209.145 49.5495 211.288 47.9451 213.782 46.7427C216.275 45.5404 219.068 44.9396 222.16 44.9396C225.251 44.9396 228.07 45.5404 230.614 46.7427C233.156 47.9451 235.326 49.5487 237.122 51.5522C238.917 53.5571 240.312 55.9102 241.31 58.6154C242.306 61.3205 242.806 64.1758 242.806 67.1821C242.805 70.1868 242.305 73.0421 241.31 75.7472Z" fill="currentColor" />
-                        <path d="M438 -3H421.694V102.197H438V-3Z" fill="currentColor" />
-                        <path d="M139.43 102.197H155.735V48.2834H183.712V32.1665H139.43V102.197Z" fill="currentColor" />
-                        <path d="M324.49 32.1665L303.995 85.794L283.498 32.1665H266.983L293.748 102.197H314.242L341.006 32.1665H324.49Z" fill="currentColor" />
-                        <path d="M376.571 30.3656C356.603 30.3656 340.797 46.8497 340.797 67.1828C340.797 89.6597 356.094 104 378.661 104C391.29 104 399.354 99.1488 409.206 88.5848L398.189 80.0226C398.183 80.031 389.874 90.9895 377.468 90.9895C363.048 90.9895 356.977 79.3111 356.977 73.269H411.075C413.917 50.1328 398.775 30.3656 376.571 30.3656ZM357.02 61.0967C357.145 59.7487 359.023 43.3761 376.442 43.3761C393.861 43.3761 395.978 59.7464 396.099 61.0967H357.02Z" fill="currentColor" />
-                    </svg>
-
-                    {{-- 13 --}}
-                    <svg class="w-[438px] max-w-none relative -mt-[6.6rem] -ml-8 lg:ml-0 [--stroke-color:#1B1B18] dark:[--stroke-color:#FF750F]" viewBox="0 0 440 392" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g class="mix-blend-darken dark:mix-blend-normal transition-all delay-300 opacity-100 duration-750 starting:opacity-0 text-[#1B1B18] dark:text-black">
-                            <mask id="path-1-mask" maskUnits="userSpaceOnUse" x="-0.328613" y="103" width="338" height="299" fill="black">
-                                <rect fill="white" x="-0.328613" y="103" width="338" height="299"/>
-                                <path d="M234.936 400.8C204.136 400.8 178.936 392.4 159.336 375.6C140.136 358.8 130.536 337 130.536 310.2H200.736C200.736 318.2 203.736 324.8 209.736 330C215.736 335.2 223.736 337.8 233.736 337.8C243.336 337.8 251.136 335 257.136 329.4C263.536 323.8 266.736 316.6 266.736 307.8C266.736 299.8 263.936 293.2 258.336 288C252.736 282.8 245.536 280.2 236.736 280.2H199.536V218.4H236.736C243.536 218.4 249.336 216 254.136 211.2C258.936 206.4 261.336 200.4 261.336 193.2C261.336 184.8 258.736 178.2 253.536 173.4C248.336 168.6 241.736 166.2 233.736 166.2C226.536 166.2 220.336 168.4 215.136 172.8C210.336 177.2 207.936 182.8 207.936 189.6H141.336C141.336 164.8 150.136 144.6 167.736 129C185.336 113 207.936 105 235.536 105C263.136 105 285.536 112.2 302.736 126.6C320.336 141 329.136 160 329.136 183.6C329.136 200.8 324.536 214.8 315.336 225.6C306.136 236 294.336 243.2 279.936 247.2C297.136 252 310.736 260.2 320.736 271.8C331.136 283.4 336.336 298 336.336 315.6C336.336 340.4 326.936 360.8 308.136 376.8C289.336 392.8 264.936 400.8 234.936 400.8Z"/>
-                                <path d="M26.8714 167.6H1.67139V105.2H94.6714V400.2H26.8714V167.6Z"/>
-                            </mask>
-                            <path d="M234.936 400.8C204.136 400.8 178.936 392.4 159.336 375.6C140.136 358.8 130.536 337 130.536 310.2H200.736C200.736 318.2 203.736 324.8 209.736 330C215.736 335.2 223.736 337.8 233.736 337.8C243.336 337.8 251.136 335 257.136 329.4C263.536 323.8 266.736 316.6 266.736 307.8C266.736 299.8 263.936 293.2 258.336 288C252.736 282.8 245.536 280.2 236.736 280.2H199.536V218.4H236.736C243.536 218.4 249.336 216 254.136 211.2C258.936 206.4 261.336 200.4 261.336 193.2C261.336 184.8 258.736 178.2 253.536 173.4C248.336 168.6 241.736 166.2 233.736 166.2C226.536 166.2 220.336 168.4 215.136 172.8C210.336 177.2 207.936 182.8 207.936 189.6H141.336C141.336 164.8 150.136 144.6 167.736 129C185.336 113 207.936 105 235.536 105C263.136 105 285.536 112.2 302.736 126.6C320.336 141 329.136 160 329.136 183.6C329.136 200.8 324.536 214.8 315.336 225.6C306.136 236 294.336 243.2 279.936 247.2C297.136 252 310.736 260.2 320.736 271.8C331.136 283.4 336.336 298 336.336 315.6C336.336 340.4 326.936 360.8 308.136 376.8C289.336 392.8 264.936 400.8 234.936 400.8Z" fill="currentColor"/>
-                            <path d="M26.8714 167.6H1.67139V105.2H94.6714V400.2H26.8714V167.6Z" fill="currentColor"/>
-                            <path d="M234.936 400.8C204.136 400.8 178.936 392.4 159.336 375.6C140.136 358.8 130.536 337 130.536 310.2H200.736C200.736 318.2 203.736 324.8 209.736 330C215.736 335.2 223.736 337.8 233.736 337.8C243.336 337.8 251.136 335 257.136 329.4C263.536 323.8 266.736 316.6 266.736 307.8C266.736 299.8 263.936 293.2 258.336 288C252.736 282.8 245.536 280.2 236.736 280.2H199.536V218.4H236.736C243.536 218.4 249.336 216 254.136 211.2C258.936 206.4 261.336 200.4 261.336 193.2C261.336 184.8 258.736 178.2 253.536 173.4C248.336 168.6 241.736 166.2 233.736 166.2C226.536 166.2 220.336 168.4 215.136 172.8C210.336 177.2 207.936 182.8 207.936 189.6H141.336C141.336 164.8 150.136 144.6 167.736 129C185.336 113 207.936 105 235.536 105C263.136 105 285.536 112.2 302.736 126.6C320.336 141 329.136 160 329.136 183.6C329.136 200.8 324.536 214.8 315.336 225.6C306.136 236 294.336 243.2 279.936 247.2C297.136 252 310.736 260.2 320.736 271.8C331.136 283.4 336.336 298 336.336 315.6C336.336 340.4 326.936 360.8 308.136 376.8C289.336 392.8 264.936 400.8 234.936 400.8Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-1-mask)"/>
-                            <path d="M26.8714 167.6H1.67139V105.2H94.6714V400.2H26.8714V167.6Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-1-mask)"/>
-                        </g>
-
-                        <g class="transition-all delay-400 opacity-100 duration-750 starting:opacity-0 motion-safe:starting:-translate-x-[26px] text-[#F3BEC7] dark:text-[#4B0600]">
-                            <mask id="path-2-mask" maskUnits="userSpaceOnUse" x="25.3357" y="103" width="338" height="299" fill="black">
-                                <rect fill="white" x="25.3357" y="103" width="338" height="299"/>
-                                <path d="M260.6 400.8C229.8 400.8 204.6 392.4 185 375.6C165.8 358.8 156.2 337 156.2 310.2H226.4C226.4 318.2 229.4 324.8 235.4 330C241.4 335.2 249.4 337.8 259.4 337.8C269 337.8 276.8 335 282.8 329.4C289.2 323.8 292.4 316.6 292.4 307.8C292.4 299.8 289.6 293.2 284 288C278.4 282.8 271.2 280.2 262.4 280.2H225.2V218.4H262.4C269.2 218.4 275 216 279.8 211.2C284.6 206.4 287 200.4 287 193.2C287 184.8 284.4 178.2 279.2 173.4C274 168.6 267.4 166.2 259.4 166.2C252.2 166.2 246 168.4 240.8 172.8C236 177.2 233.6 182.8 233.6 189.6H167C167 164.8 175.8 144.6 193.4 129C211 113 233.6 105 261.2 105C288.8 105 311.2 112.2 328.4 126.6C346 141 354.8 160 354.8 183.6C354.8 200.8 350.2 214.8 341 225.6C331.8 236 320 243.2 305.6 247.2C322.8 252 336.4 260.2 346.4 271.8C356.8 283.4 362 298 362 315.6C362 340.4 352.6 360.8 333.8 376.8C315 392.8 290.6 400.8 260.6 400.8Z"/>
-                                <path d="M52.5357 167.6H27.3357V105.2H120.336V400.2H52.5357V167.6Z"/>
-                            </mask>
-                            <path d="M260.6 400.8C229.8 400.8 204.6 392.4 185 375.6C165.8 358.8 156.2 337 156.2 310.2H226.4C226.4 318.2 229.4 324.8 235.4 330C241.4 335.2 249.4 337.8 259.4 337.8C269 337.8 276.8 335 282.8 329.4C289.2 323.8 292.4 316.6 292.4 307.8C292.4 299.8 289.6 293.2 284 288C278.4 282.8 271.2 280.2 262.4 280.2H225.2V218.4H262.4C269.2 218.4 275 216 279.8 211.2C284.6 206.4 287 200.4 287 193.2C287 184.8 284.4 178.2 279.2 173.4C274 168.6 267.4 166.2 259.4 166.2C252.2 166.2 246 168.4 240.8 172.8C236 177.2 233.6 182.8 233.6 189.6H167C167 164.8 175.8 144.6 193.4 129C211 113 233.6 105 261.2 105C288.8 105 311.2 112.2 328.4 126.6C346 141 354.8 160 354.8 183.6C354.8 200.8 350.2 214.8 341 225.6C331.8 236 320 243.2 305.6 247.2C322.8 252 336.4 260.2 346.4 271.8C356.8 283.4 362 298 362 315.6C362 340.4 352.6 360.8 333.8 376.8C315 392.8 290.6 400.8 260.6 400.8Z" fill="currentColor"/>
-                            <path d="M52.5357 167.6H27.3357V105.2H120.336V400.2H52.5357V167.6Z" fill="currentColor"/>
-                            <path d="M260.6 400.8C229.8 400.8 204.6 392.4 185 375.6C165.8 358.8 156.2 337 156.2 310.2H226.4C226.4 318.2 229.4 324.8 235.4 330C241.4 335.2 249.4 337.8 259.4 337.8C269 337.8 276.8 335 282.8 329.4C289.2 323.8 292.4 316.6 292.4 307.8C292.4 299.8 289.6 293.2 284 288C278.4 282.8 271.2 280.2 262.4 280.2H225.2V218.4H262.4C269.2 218.4 275 216 279.8 211.2C284.6 206.4 287 200.4 287 193.2C287 184.8 284.4 178.2 279.2 173.4C274 168.6 267.4 166.2 259.4 166.2C252.2 166.2 246 168.4 240.8 172.8C236 177.2 233.6 182.8 233.6 189.6H167C167 164.8 175.8 144.6 193.4 129C211 113 233.6 105 261.2 105C288.8 105 311.2 112.2 328.4 126.6C346 141 354.8 160 354.8 183.6C354.8 200.8 350.2 214.8 341 225.6C331.8 236 320 243.2 305.6 247.2C322.8 252 336.4 260.2 346.4 271.8C356.8 283.4 362 298 362 315.6C362 340.4 352.6 360.8 333.8 376.8C315 392.8 290.6 400.8 260.6 400.8Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-2-mask)"/>
-                            <path d="M52.5357 167.6H27.3357V105.2H120.336V400.2H52.5357V167.6Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-2-mask)"/>
-                        </g>
-                        
-                        <g class="mix-blend-color dark:mix-blend-hard-light transition-all delay-400 opacity-100 duration-750 starting:opacity-0 motion-safe:starting:-translate-x-[51px] text-[#F8B803] dark:text-[#391800]">
-                            <mask id="path-3-mask" maskUnits="userSpaceOnUse" x="51" y="103" width="338" height="299" fill="black">
-                                <rect fill="white" x="51" y="103" width="338" height="299"/>
-                                <path d="M286.264 400.8C255.464 400.8 230.264 392.4 210.664 375.6C191.464 358.8 181.864 337 181.864 310.2H252.064C252.064 318.2 255.064 324.8 261.064 330C267.064 335.2 275.064 337.8 285.064 337.8C294.664 337.8 302.464 335 308.464 329.4C314.864 323.8 318.064 316.6 318.064 307.8C318.064 299.8 315.264 293.2 309.664 288C304.064 282.8 296.864 280.2 288.064 280.2H250.864V218.4H288.064C294.864 218.4 300.664 216 305.464 211.2C310.264 206.4 312.664 200.4 312.664 193.2C312.664 184.8 310.064 178.2 304.864 173.4C299.664 168.6 293.064 166.2 285.064 166.2C277.864 166.2 271.664 168.4 266.464 172.8C261.664 177.2 259.264 182.8 259.264 189.6H192.664C192.664 164.8 201.464 144.6 219.064 129C236.664 113 259.264 105 286.864 105C314.464 105 336.864 112.2 354.064 126.6C371.664 141 380.464 160 380.464 183.6C380.464 200.8 375.864 214.8 366.664 225.6C357.464 236 345.664 243.2 331.264 247.2C348.464 252 362.064 260.2 372.064 271.8C382.464 283.4 387.664 298 387.664 315.6C387.664 340.4 378.264 360.8 359.464 376.8C340.664 392.8 316.264 400.8 286.264 400.8Z"/>
-                                <path d="M78.2 167.6H53V105.2H146V400.2H78.2V167.6Z"/>
-                            </mask>
-                            <path d="M286.264 400.8C255.464 400.8 230.264 392.4 210.664 375.6C191.464 358.8 181.864 337 181.864 310.2H252.064C252.064 318.2 255.064 324.8 261.064 330C267.064 335.2 275.064 337.8 285.064 337.8C294.664 337.8 302.464 335 308.464 329.4C314.864 323.8 318.064 316.6 318.064 307.8C318.064 299.8 315.264 293.2 309.664 288C304.064 282.8 296.864 280.2 288.064 280.2H250.864V218.4H288.064C294.864 218.4 300.664 216 305.464 211.2C310.264 206.4 312.664 200.4 312.664 193.2C312.664 184.8 310.064 178.2 304.864 173.4C299.664 168.6 293.064 166.2 285.064 166.2C277.864 166.2 271.664 168.4 266.464 172.8C261.664 177.2 259.264 182.8 259.264 189.6H192.664C192.664 164.8 201.464 144.6 219.064 129C236.664 113 259.264 105 286.864 105C314.464 105 336.864 112.2 354.064 126.6C371.664 141 380.464 160 380.464 183.6C380.464 200.8 375.864 214.8 366.664 225.6C357.464 236 345.664 243.2 331.264 247.2C348.464 252 362.064 260.2 372.064 271.8C382.464 283.4 387.664 298 387.664 315.6C387.664 340.4 378.264 360.8 359.464 376.8C340.664 392.8 316.264 400.8 286.264 400.8Z" fill="currentColor"/>
-                            <path d="M78.2 167.6H53V105.2H146V400.2H78.2V167.6Z" fill="currentColor"/>
-                            <path d="M286.264 400.8C255.464 400.8 230.264 392.4 210.664 375.6C191.464 358.8 181.864 337 181.864 310.2H252.064C252.064 318.2 255.064 324.8 261.064 330C267.064 335.2 275.064 337.8 285.064 337.8C294.664 337.8 302.464 335 308.464 329.4C314.864 323.8 318.064 316.6 318.064 307.8C318.064 299.8 315.264 293.2 309.664 288C304.064 282.8 296.864 280.2 288.064 280.2H250.864V218.4H288.064C294.864 218.4 300.664 216 305.464 211.2C310.264 206.4 312.664 200.4 312.664 193.2C312.664 184.8 310.064 178.2 304.864 173.4C299.664 168.6 293.064 166.2 285.064 166.2C277.864 166.2 271.664 168.4 266.464 172.8C261.664 177.2 259.264 182.8 259.264 189.6H192.664C192.664 164.8 201.464 144.6 219.064 129C236.664 113 259.264 105 286.864 105C314.464 105 336.864 112.2 354.064 126.6C371.664 141 380.464 160 380.464 183.6C380.464 200.8 375.864 214.8 366.664 225.6C357.464 236 345.664 243.2 331.264 247.2C348.464 252 362.064 260.2 372.064 271.8C382.464 283.4 387.664 298 387.664 315.6C387.664 340.4 378.264 360.8 359.464 376.8C340.664 392.8 316.264 400.8 286.264 400.8Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-3-mask)"/>
-                            <path d="M78.2 167.6H53V105.2H146V400.2H78.2V167.6Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-3-mask)"/>
-                        </g>
-                        
-                        <g class="mix-blend-multiply dark:mix-blend-normal transition-all delay-400 opacity-100 duration-750 starting:opacity-0 motion-safe:starting:-translate-x-[78px] text-[#F3BEC7] dark:text-[#733000]">
-                            <mask id="path-4-mask" maskUnits="userSpaceOnUse" x="76.6643" y="103" width="338" height="299" fill="black">
-                                <rect fill="white" x="76.6643" y="103" width="338" height="299"/>
-                                <path d="M311.929 400.8C281.129 400.8 255.929 392.4 236.329 375.6C217.129 358.8 207.529 337 207.529 310.2H277.729C277.729 318.2 280.729 324.8 286.729 330C292.729 335.2 300.729 337.8 310.729 337.8C320.329 337.8 328.129 335 334.129 329.4C340.529 323.8 343.729 316.6 343.729 307.8C343.729 299.8 340.929 293.2 335.329 288C329.729 282.8 322.529 280.2 313.729 280.2H276.529V218.4H313.729C320.529 218.4 326.329 216 331.129 211.2C335.929 206.4 338.329 200.4 338.329 193.2C338.329 184.8 335.729 178.2 330.529 173.4C325.329 168.6 318.729 166.2 310.729 166.2C303.529 166.2 297.329 168.4 292.129 172.8C287.329 177.2 284.929 182.8 284.929 189.6H218.329C218.329 164.8 227.129 144.6 244.729 129C262.329 113 284.929 105 312.529 105C340.129 105 362.529 112.2 379.729 126.6C397.329 141 406.129 160 406.129 183.6C406.129 200.8 401.529 214.8 392.329 225.6C383.129 236 371.329 243.2 356.929 247.2C374.129 252 387.729 260.2 397.729 271.8C408.129 283.4 413.329 298 413.329 315.6C413.329 340.4 403.929 360.8 385.129 376.8C366.329 392.8 341.929 400.8 311.929 400.8Z"/>
-                                <path d="M103.864 167.6H78.6643V105.2H171.664V400.2H103.864V167.6Z"/>
-                            </mask>
-                            <path d="M311.929 400.8C281.129 400.8 255.929 392.4 236.329 375.6C217.129 358.8 207.529 337 207.529 310.2H277.729C277.729 318.2 280.729 324.8 286.729 330C292.729 335.2 300.729 337.8 310.729 337.8C320.329 337.8 328.129 335 334.129 329.4C340.529 323.8 343.729 316.6 343.729 307.8C343.729 299.8 340.929 293.2 335.329 288C329.729 282.8 322.529 280.2 313.729 280.2H276.529V218.4H313.729C320.529 218.4 326.329 216 331.129 211.2C335.929 206.4 338.329 200.4 338.329 193.2C338.329 184.8 335.729 178.2 330.529 173.4C325.329 168.6 318.729 166.2 310.729 166.2C303.529 166.2 297.329 168.4 292.129 172.8C287.329 177.2 284.929 182.8 284.929 189.6H218.329C218.329 164.8 227.129 144.6 244.729 129C262.329 113 284.929 105 312.529 105C340.129 105 362.529 112.2 379.729 126.6C397.329 141 406.129 160 406.129 183.6C406.129 200.8 401.529 214.8 392.329 225.6C383.129 236 371.329 243.2 356.929 247.2C374.129 252 387.729 260.2 397.729 271.8C408.129 283.4 413.329 298 413.329 315.6C413.329 340.4 403.929 360.8 385.129 376.8C366.329 392.8 341.929 400.8 311.929 400.8Z" fill="currentColor"/>
-                            <path d="M103.864 167.6H78.6643V105.2H171.664V400.2H103.864V167.6Z" fill="currentColor"/>
-                            <path d="M311.929 400.8C281.129 400.8 255.929 392.4 236.329 375.6C217.129 358.8 207.529 337 207.529 310.2H277.729C277.729 318.2 280.729 324.8 286.729 330C292.729 335.2 300.729 337.8 310.729 337.8C320.329 337.8 328.129 335 334.129 329.4C340.529 323.8 343.729 316.6 343.729 307.8C343.729 299.8 340.929 293.2 335.329 288C329.729 282.8 322.529 280.2 313.729 280.2H276.529V218.4H313.729C320.529 218.4 326.329 216 331.129 211.2C335.929 206.4 338.329 200.4 338.329 193.2C338.329 184.8 335.729 178.2 330.529 173.4C325.329 168.6 318.729 166.2 310.729 166.2C303.529 166.2 297.329 168.4 292.129 172.8C287.329 177.2 284.929 182.8 284.929 189.6H218.329C218.329 164.8 227.129 144.6 244.729 129C262.329 113 284.929 105 312.529 105C340.129 105 362.529 112.2 379.729 126.6C397.329 141 406.129 160 406.129 183.6C406.129 200.8 401.529 214.8 392.329 225.6C383.129 236 371.329 243.2 356.929 247.2C374.129 252 387.729 260.2 397.729 271.8C408.129 283.4 413.329 298 413.329 315.6C413.329 340.4 403.929 360.8 385.129 376.8C366.329 392.8 341.929 400.8 311.929 400.8Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-4-mask)"/>
-                            <path d="M103.864 167.6H78.6643V105.2H171.664V400.2H103.864V167.6Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-4-mask)"/>
-                        </g>
-                        
-                        <g class="mix-blend-hard-light transition-all delay-400 opacity-100 duration-750 starting:opacity-0 motion-safe:starting:-translate-x-[102px] text-[#F3BEC7] dark:text-[#4B0600]">
-                            <mask id="path-5-mask" maskUnits="userSpaceOnUse" x="102.329" y="103" width="338" height="299" fill="black">
-                                <rect fill="white" x="102.329" y="103" width="338" height="299"/>
-                                <path d="M337.593 400.8C306.793 400.8 281.593 392.4 261.993 375.6C242.793 358.8 233.193 337 233.193 310.2H303.393C303.393 318.2 306.393 324.8 312.393 330C318.393 335.2 326.393 337.8 336.393 337.8C345.993 337.8 353.793 335 359.793 329.4C366.193 323.8 369.393 316.6 369.393 307.8C369.393 299.8 366.593 293.2 360.993 288C355.393 282.8 348.193 280.2 339.393 280.2H302.193V218.4H339.393C346.193 218.4 351.993 216 356.793 211.2C361.593 206.4 363.993 200.4 363.993 193.2C363.993 184.8 361.393 178.2 356.193 173.4C350.993 168.6 344.393 166.2 336.393 166.2C329.193 166.2 322.993 168.4 317.793 172.8C312.993 177.2 310.593 182.8 310.593 189.6H243.993C243.993 164.8 252.793 144.6 270.393 129C287.993 113 310.593 105 338.193 105C365.793 105 388.193 112.2 405.393 126.6C422.993 141 431.793 160 431.793 183.6C431.793 200.8 427.193 214.8 417.993 225.6C408.793 236 396.993 243.2 382.593 247.2C399.793 252 413.393 260.2 423.393 271.8C433.793 283.4 438.993 298 438.993 315.6C438.993 340.4 429.593 360.8 410.793 376.8C391.993 392.8 367.593 400.8 337.593 400.8Z"/>
-                                <path d="M129.529 167.6H104.329V105.2H197.329V400.2H129.529V167.6Z"/>
-                            </mask>
-                            <path d="M337.593 400.8C306.793 400.8 281.593 392.4 261.993 375.6C242.793 358.8 233.193 337 233.193 310.2H303.393C303.393 318.2 306.393 324.8 312.393 330C318.393 335.2 326.393 337.8 336.393 337.8C345.993 337.8 353.793 335 359.793 329.4C366.193 323.8 369.393 316.6 369.393 307.8C369.393 299.8 366.593 293.2 360.993 288C355.393 282.8 348.193 280.2 339.393 280.2H302.193V218.4H339.393C346.193 218.4 351.993 216 356.793 211.2C361.593 206.4 363.993 200.4 363.993 193.2C363.993 184.8 361.393 178.2 356.193 173.4C350.993 168.6 344.393 166.2 336.393 166.2C329.193 166.2 322.993 168.4 317.793 172.8C312.993 177.2 310.593 182.8 310.593 189.6H243.993C243.993 164.8 252.793 144.6 270.393 129C287.993 113 310.593 105 338.193 105C365.793 105 388.193 112.2 405.393 126.6C422.993 141 431.793 160 431.793 183.6C431.793 200.8 427.193 214.8 417.993 225.6C408.793 236 396.993 243.2 382.593 247.2C399.793 252 413.393 260.2 423.393 271.8C433.793 283.4 438.993 298 438.993 315.6C438.993 340.4 429.593 360.8 410.793 376.8C391.993 392.8 367.593 400.8 337.593 400.8Z" fill="currentColor"/>
-                            <path d="M129.529 167.6H104.329V105.2H197.329V400.2H129.529V167.6Z" fill="currentColor"/>
-                            <path d="M337.593 400.8C306.793 400.8 281.593 392.4 261.993 375.6C242.793 358.8 233.193 337 233.193 310.2H303.393C303.393 318.2 306.393 324.8 312.393 330C318.393 335.2 326.393 337.8 336.393 337.8C345.993 337.8 353.793 335 359.793 329.4C366.193 323.8 369.393 316.6 369.393 307.8C369.393 299.8 366.593 293.2 360.993 288C355.393 282.8 348.193 280.2 339.393 280.2H302.193V218.4H339.393C346.193 218.4 351.993 216 356.793 211.2C361.593 206.4 363.993 200.4 363.993 193.2C363.993 184.8 361.393 178.2 356.193 173.4C350.993 168.6 344.393 166.2 336.393 166.2C329.193 166.2 322.993 168.4 317.793 172.8C312.993 177.2 310.593 182.8 310.593 189.6H243.993C243.993 164.8 252.793 144.6 270.393 129C287.993 113 310.593 105 338.193 105C365.793 105 388.193 112.2 405.393 126.6C422.993 141 431.793 160 431.793 183.6C431.793 200.8 427.193 214.8 417.993 225.6C408.793 236 396.993 243.2 382.593 247.2C399.793 252 413.393 260.2 423.393 271.8C433.793 283.4 438.993 298 438.993 315.6C438.993 340.4 429.593 360.8 410.793 376.8C391.993 392.8 367.593 400.8 337.593 400.8Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-5-mask)"/>
-                            <path d="M129.529 167.6H104.329V105.2H197.329V400.2H129.529V167.6Z" stroke="var(--stroke-color)" stroke-width="2.4" mask="url(#path-5-mask)"/>
-                        </g>
-                    </svg>
-                    <div class="absolute inset-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"></div>
-                </div>
-            </main>
+            </div>
         </div>
 
-        @if (Route::has('login'))
-            <div class="h-14.5 hidden lg:block"></div>
-        @endif
-    </body>
+        <div data-elementor-type="wp-page" data-elementor-id="5227" class="elementor elementor-5227">
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-7b66a68 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7b66a68" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6db3448 ot-flex-column-vertical" data-id="6db3448" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-4adc8b4 elementor-widget elementor-widget-shortcode" data-id="4adc8b4" data-element_type="widget" data-widget_type="shortcode.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-shortcode"><div class="widget widget_wpc_filters_widget"><div class="wpc-filters-main-wrap wpc-filter-set-5099" data-set="5099">
+                                                <div class="wpc-filters-open-button-container wpc-open-button-5099">
+                                                    <a class="wpc-open-close-filters-button wpc-show-counts-yes" href="javascript:void(0);" data-wid="5099"><span class="wpc-button-inner"><span class="wpc-icon-html-wrapper">
+    <span class="wpc-icon-line-1"></span>
+    <span class="wpc-icon-line-2"></span>
+    <span class="wpc-icon-line-3"></span>
+</span>
+    <span class="wpc-filters-button-text">Filters</span></span></a>
+                                                </div><div class="wpc-spinner"></div><div class="wpc-filters-widget-content wpc-show-counts-yes"><div class="wpc-widget-close-container">
+                                                        <a class="wpc-widget-close-icon">
+                                <span class="wpc-icon-html-wrapper">
+                                <span class="wpc-icon-line-1"></span><span class="wpc-icon-line-2"></span><span class="wpc-icon-line-3"></span>
+                                </span>
+                                                        </a><span class="wpc-widget-popup-title">Filters</span></div><div class="wpc-filters-widget-containers-wrapper">
+                                                        <div class="wpc-filters-widget-top-container"><div class="wpc-widget-top-inside"><div class="wpc-inner-widget-chips-wrapper"><ul class="wpc-filter-chips-list wpc-filter-chips-5099-1 wpc-filter-chips-5099 wpc-empty-chips-container" data-set="5099" data-setcount="5099-1">
+                                                                    </ul></div></div></div><div class="wpc-filters-scroll-container"><div class="wpc-filters-widget-wrapper">
+                                                                <div class="wpc-instead-of-posts-found"></div><div class="wpc-filters-section wpc-filters-section-5400 wpc-filter-post_tag wpc-filter-taxonomy wpc-filter-layout-checkboxes wpc-filter-full-height wpc-filter-visible-term-names" data-fid="5400">
+                                                                    <div class="wpc-filter-header">
+                                                                        <div class="widget-title wpc-filter-title">
+                                                                            Продукция            </div>
+                                                                    </div>
+                                                                    <div class="wpc-filter-content wpc-filter-post_tag">
+                                                                        <ul class="wpc-filters-ul-list wpc-filters-checkboxes wpc-filters-list-5400">	<li class="wpc-checkbox-item wpc-term-item wpc-term-count-182 wpc-term-id-43" id="wpc-term-taxonomy-post_tag-43"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-stoleshnicy/index.html" id="wpc-checkbox-taxonomy-post_tag-43" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-43"><a href="used-stoleshnicy/index.html">Столешницы</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">182</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-225 wpc-term-id-44" id="wpc-term-taxonomy-post_tag-44"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-stenovye-paneli/index.html" id="wpc-checkbox-taxonomy-post_tag-44" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-44"><a href="used-stenovye-paneli/index.html">Стеновые панели</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">225</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-225 wpc-term-id-45" id="wpc-term-taxonomy-post_tag-45"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-fasadnye-polotna/index.html" id="wpc-checkbox-taxonomy-post_tag-45" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-45"><a href="used-fasadnye-polotna/index.html">Фасадные полотна</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">225</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-0 wpc-term-id-47" id="wpc-term-taxonomy-post_tag-47"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-stoleshnicy-i-plity-compact/index.html" id="wpc-checkbox-taxonomy-post_tag-47" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-47"><a href="used-stoleshnicy-i-plity-compact/index.html">Столешницы и плиты Compact</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">0</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-0 wpc-term-id-48" id="wpc-term-taxonomy-post_tag-48"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-dsp/index.html" id="wpc-checkbox-taxonomy-post_tag-48" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-48"><a href="used-dsp/index.html">ДСП</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">0</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-0 wpc-term-id-49" id="wpc-term-taxonomy-post_tag-49"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-teksturirovannye-plity/index.html" id="wpc-checkbox-taxonomy-post_tag-49" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-49"><a href="used-teksturirovannye-plity/index.html">Текстурированные плиты</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">0</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-0 wpc-term-id-50" id="wpc-term-taxonomy-post_tag-50"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-dekorativnyj-plastik/index.html" id="wpc-checkbox-taxonomy-post_tag-50" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-50"><a href="used-dekorativnyj-plastik/index.html">Декоративный пластик</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">0</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li class="wpc-checkbox-item wpc-term-item wpc-term-count-0 wpc-term-id-51" id="wpc-term-taxonomy-post_tag-51"><div class="wpc-term-item-content-wrapper"><input   type="checkbox" data-wpc-link="used-ldsp/index.html" id="wpc-checkbox-taxonomy-post_tag-51" />
+                                                                                    <label for="wpc-checkbox-taxonomy-post_tag-51"><a href="used-ldsp/index.html">ЛДСП</a>&nbsp;<span class="wpc-term-count">(<span class="wpc-term-count-value">0</span>)</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div></div>
+                                                        </div>
+                                                        <div class="wpc-filters-widget-controls-container">
+                                                            <div class="wpc-filters-widget-controls-wrapper"><div class="wpc-filters-widget-controls-item wpc-filters-widget-controls-one">
+                                                                    <a class="wpc-filters-apply-button wpc-posts-loaded" href="index.html">Show <span class="wpc-filters-found-posts-wrapper">(<span class="wpc-filters-found-posts">225</span>)</span></a>
+                                                                </div>
+                                                                <div class="wpc-filters-widget-controls-item wpc-filters-widget-controls-two">
+                                                                    <a class="wpc-filters-close-button" href="index.html">Cancel    </a>
+                                                                </div>
+                                                            </div></div></div>
+                                                </div>
+                                            </div>
+                                        </div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-24a31ce ot-flex-column-vertical" data-id="24a31ce" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-ef81837 elementor-posts--align-center elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-invisible elementor-widget elementor-widget-posts" data-id="ef81837" data-element_type="widget" data-settings="{&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:25,&quot;sizes&quot;:[]},&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
+                                <div class="elementor-widget-container">
+                                    <link rel="stylesheet" href="../wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css">		<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+                                        <article class="elementor-post elementor-grid-item post-5875 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../0081-venice/index.html" >
+                                                <div class="elementor-post__thumbnail"><img fetchpriority="high" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/86d1veq518lwzv7bw3ab1fsyktrwljj2-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../0081-venice/index.html" >
+                                                        0081 Venice			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5868 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../0093-sesamo/index.html" >
+                                                <div class="elementor-post__thumbnail"><img decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/zukfyvwi19cgxsv57ft9e66preff7bts-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../0093-sesamo/index.html" >
+                                                        0093 Sesamo			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7426 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../0114-bordo/index.html" >
+                                                <div class="elementor-post__thumbnail"><img decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/f66f038dc1cb32ef32f3eb84f7621b10-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../0114-bordo/index.html" >
+                                                        0114 Bordo			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6026 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../0651-bergen/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/fc116ecb2bad0ba6ee90c84972700df8-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../0651-bergen/index.html" >
+                                                        0651 Bergen			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7448 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1015-light-yellow/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3ae413278344fc21b2a5bdd14792e878-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1015-light-yellow/index.html" >
+                                                        1015 Light yellow			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7461 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1017-sky-blue/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/58fb1e4f0b80c8da8d53120c5ff48dfd-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1017-sky-blue/index.html" >
+                                                        1017 Sky blue			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6581 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8706-biscotto-3/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/aef87974e7ef8dd35b5f095c1f1b2e42-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8706-biscotto-3/index.html" >
+                                                        1020 Gemstone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6580 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8706-biscotto-4/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/8054b653c262a83009a262b16c89ef8f-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8706-biscotto-4/index.html" >
+                                                        1020 Legno Scuro			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5344 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1021-black/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/a88d49baf6b794a2d99a588224d3b714-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1021-black/index.html" >
+                                                        1021 Black			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7423 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1021-black-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/55aeb1ab370d539e08b3b83d94e0aeae-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1021-black-2/index.html" >
+                                                        1021 Black			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7447 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1023-light-turquoise/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/f1fgwpf8milhwwa6b6ehqquubcyq625v-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1023-light-turquoise/index.html" >
+                                                        1023 Light turquoise			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7464 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1030-red/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/03de1258067ed179f6c1c59ba34af7f3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1030-red/index.html" >
+                                                        1030 Red			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7446 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1031-light-pink/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ab2a6cec3fc6f35a29074e365de4213c-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1031-light-pink/index.html" >
+                                                        1031 Light pink			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7442 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1039-grey-blue/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/23db6a29e31df19e2b242e57d78a80c9-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1039-grey-blue/index.html" >
+                                                        1039 Grey blue			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7429 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1043-chocolate/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/bc6cf1a6ee6f901a5a4e449e7a056759-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1043-chocolate/index.html" >
+                                                        1043 Chocolate			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7441 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1046-grey-beige/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/d14a62e62ccf59673b4c8c978d656927-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1046-grey-beige/index.html" >
+                                                        1046 Grey beige			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7439 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1051-green/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8751e223951c941d142a5b2103f8fc33-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1051-green/index.html" >
+                                                        1051 Green			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7456 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1055-vanilla/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/81cb33ea782bea23ccb643dc068ebe5f-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1055-vanilla/index.html" >
+                                                        1055 Vanilla			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6529 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1061-mineral/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/ec7a8ff0b2b488d6b339ceaef7d6d914-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1061-mineral/index.html" >
+                                                        1061 Mineral			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6524 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1061-sherwood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/6999a00c05f2faf72b4e10d99262fa31-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1061-sherwood/index.html" >
+                                                        1061 Sherwood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7449 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1067-lime/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="475" src="../wp-content/uploads/2023/07/6d5c4c206355fedf7e8bf71cd7d2ce18-805x475.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1067-lime/index.html" >
+                                                        1067 Lime			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7460 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1071-orange/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/76b0b001f1355d4375594acf4dc3fea4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1071-orange/index.html" >
+                                                        1071 Orange			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7454 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1072-sepia/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/5fc236c5388870a22184bd323919b548-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1072-sepia/index.html" >
+                                                        1072 Sepia			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7462 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1073-terracotta/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8934a448ea3e0d5c1836575d30a430f7-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1073-terracotta/index.html" >
+                                                        1073 Terracotta			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7437 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1074-flamingo/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/82b71d746e34820540d5e6c649fa5fc1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1074-flamingo/index.html" >
+                                                        1074 Flamingo			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6136 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1075-amaranth/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/df0106d8c2148f65757cb765f6b10d7e-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1075-amaranth/index.html" >
+                                                        1075 Amaranth			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7424 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1076-blackberry/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/387a0285b5ccd7ca611014711eab7019-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1076-blackberry/index.html" >
+                                                        1076 Blackberry			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7453 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1079-sapphire/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/83cee5ced22589f73914e9bdaa74239f-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1079-sapphire/index.html" >
+                                                        1079 Sapphire			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7444 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1081-khaki/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ddffc0641747855d8e499c029d599f90-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1081-khaki/index.html" >
+                                                        1081 Khaki			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7433 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1082-dark-green/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4183f6070b32921574353acdfe31fa6a-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1082-dark-green/index.html" >
+                                                        1082 Dark green			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6137 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1100-arctic-white/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/31cade84c70d6bef4f62e4ee32f5b55a-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1100-arctic-white/index.html" >
+                                                        1100 Arctic white			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5874 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1111-white/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/eea759f61fa987defa04684ae9a9c1bb-700x683.jpeg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1111-white/index.html" >
+                                                        1111 White			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7445 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1460-light-grey/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/e1ddde3c5261ce83314292ae6b21c18c-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1460-light-grey/index.html" >
+                                                        1460 Light grey			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6024 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1461-lund/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/0d2f87c2943cc79f8dcf99e70449e2fc-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1461-lund/index.html" >
+                                                        1461 Lund			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7434 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1476-dark-grey/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4caf402ec3e2a99b0092d5ed053a0b27-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1476-dark-grey/index.html" >
+                                                        1476 Dark grey			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7440 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1478-grey/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4d8d923526e3b25706981ac613703edc-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1478-grey/index.html" >
+                                                        1478 Grey			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6578 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1479-pietra-argento/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/bedcfe2b041c7b791f6563723713f169-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1479-pietra-argento/index.html" >
+                                                        1479 Pietra Argento			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7457 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1479-silvery/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8fd727f07af854d49cc2d8862f3bc13e-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1479-silvery/index.html" >
+                                                        1479 Silvery			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6577 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../1479-westwood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="700" height="683" src="../wp-content/uploads/2023/07/558ea1f84bcc994686c3822b704a37d9-700x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../1479-westwood/index.html" >
+                                                        1479 Westwood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5692 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2047-madeira-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/uqkv50l3biie5pm62ndifcmk0cfm4yxn-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2047-madeira-light/index.html" >
+                                                        2047 Madeira light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7428 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2238-breccia-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/tds9gkwo7x0w1lkqvjxth9fkuwn1cgt1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2238-breccia-light/index.html" >
+                                                        2238 Breccia light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7427 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8074-arctic-oak-2-3/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/qhbpn0k3tera0xd9ye0b702nakkee5gb-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8074-arctic-oak-2-3/index.html" >
+                                                        2240 Breccia Antika			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5462 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2333-black-slate/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/d79qdl27dhlw2u15mqmm2myhij8kxwyf-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2333-black-slate/index.html" >
+                                                        2333 Black Slate			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7091 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2340-gloria/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Gloria-2340-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2340-gloria/index.html" >
+                                                        2340 Gloria			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7452 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2341-nuvolato-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/egu4jhu1rqpagfa2ae23gzgz7s5vh1en-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2341-nuvolato-marble/index.html" >
+                                                        2341 Nuvolato Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7443 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2342-italian-stone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/z6740dqp1zovflga3f7l63erdsew40lg-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2342-italian-stone/index.html" >
+                                                        2342 Italian Stone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5248 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2343-ankara-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3glvm729bfbdnr7ul1956x0rgg06xuj4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2343-ankara-marble/index.html" >
+                                                        2343 Ankara Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7425 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8074-arctic-oak-2-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/vu182ssa8weh014pl2862h2ces9z77ot-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8074-arctic-oak-2-2/index.html" >
+                                                        2347 Blanco Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7450 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2348-lombardy/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/x5rvlckvw683rokrw972qk3l3r3m6alb-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2348-lombardy/index.html" >
+                                                        2348 Lombardy			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5960 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2349-bernini-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/qmbo7xav5mk7g1kklpkumy0w0srug770-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2349-bernini-marble/index.html" >
+                                                        2349 Bernini Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7422 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2349-bernini-marble-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/yxtk1zaqavjn78x0rikl0to1fh1qqbv8-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2349-bernini-marble-2/index.html" >
+                                                        2349 Bernini Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7906 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2612-irish-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/08/Irish-Oak-2612-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2612-irish-oak/index.html" >
+                                                        2612 Irish Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5691 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2631-marino/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/h4xq1qbl7mnyqi981sjh29f5zwfv9y7s-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2631-marino/index.html" >
+                                                        2631 Marino			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5457 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2915-clermont/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/47givm6hoj1wi53sxqivfl27afztwbde-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2915-clermont/index.html" >
+                                                        2915 Clermont			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5686 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2926-naples/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/i5l86i0iqlqr2cu4nsz3utky48j44zac-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2926-naples/index.html" >
+                                                        2926 Naples			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5873 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2927-verona/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4q709oyaaybbx6q8yhepq7y5ylzp2q8k-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2927-verona/index.html" >
+                                                        2927 Verona			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5561 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../2946-galiya/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3ptsp2fh2gg9q2h8hdlpb2a1eazb80yr-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../2946-galiya/index.html" >
+                                                        2946 Galiya			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5871 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3230-sonoma-oak-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/itbyader3608kts5kmw6g1xng46o0uk6-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3230-sonoma-oak-light/index.html" >
+                                                        3230 Sonoma Oak light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5555 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3247-indian-rosewood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/gn0sq9ohfh5ss0i6r37co2tp4vfqb0p7-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3247-indian-rosewood/index.html" >
+                                                        3247 Indian Rosewood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5453 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3259-french-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/j2hlhvmgux0coa2hq6jjig9q616jijy3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3259-french-oak/index.html" >
+                                                        3259 French Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5460 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3829-bunratty-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ihywxziqnnxtx4u60qsr32uaph6hcjra-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3829-bunratty-oak/index.html" >
+                                                        3829 Bunratty Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7431 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3852-corsica-oak-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/2l9450wyg3wdfa4xlnlrs7mc8mh6ymv3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3852-corsica-oak-2/index.html" >
+                                                        3852 Corsica Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6801 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3852-corsica-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/0ujzq3gjjr7it2q55ixo8hcutznbmdj6-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3852-corsica-oak/index.html" >
+                                                        3852 Corsica Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7421 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3854-berlin/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8ovcdbfld7iwkfpbawmgcs5ovyldgo1e-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3854-berlin/index.html" >
+                                                        3854 Berlin			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7090 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5011-garza/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Garza-5011-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5011-garza/index.html" >
+                                                        5011 Garza			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5684 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5012-loft/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/sxrufbh2gf5y6n2ryzggoeraqi3rtw1v-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5012-loft/index.html" >
+                                                        5012 Loft			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7108 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5014-pepita/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/1a3149f2cbf9e719daa579ed5fc77f00-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5014-pepita/index.html" >
+                                                        5014 Pepita			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7435 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5016-detroit-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/i1tur8wi8fz0362l7hwk0mhiajo10a10-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5016-detroit-2/index.html" >
+                                                        5016 Detroit			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6800 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5016-detroit/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/77i3cfbgbgfhiuby7dmuezcudxykzhn7-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5016-detroit/index.html" >
+                                                        5016 Detroit			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7430 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5017-cleveland/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/egad465zkwzuc48bn4tl1oicnzdqi78u-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5017-cleveland/index.html" >
+                                                        5017 Cleveland			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7438 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5018-freestyle/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/u1p3z9hpnws7mbgmbvc1sokl1bbbukj8-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5018-freestyle/index.html" >
+                                                        5018 Freestyle			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7436 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5023-dominicana-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/tc2x20788a8bvl52r4f8gyb0y31hmqju-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5023-dominicana-2/index.html" >
+                                                        5023 Dominicana			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5456 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5023-dominicana/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/jucbyskk34r9s7hq7vcwf6eohty4f6mi-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5023-dominicana/index.html" >
+                                                        5023 Dominicana			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7086 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5040-emperador-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Emperador-Marble-5040-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5040-emperador-marble/index.html" >
+                                                        5040 Emperador Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7118 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5045-black-stone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Black-Stone-5045-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5045-black-stone/index.html" >
+                                                        5045 Black Stone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-4801 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5055-active-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2019/11/i0fllkq011ycqsq5kpoabq2hveesliwp-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5055-active-marble/index.html" >
+                                                        5055 Active Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7100 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5101-icy-spark-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Icy-Spark-white-5108-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5101-icy-spark-light/index.html" >
+                                                        5101 Icy Spark light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7101 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5108-icy-spark-white/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Icy-Spark-light-5101-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5108-icy-spark-white/index.html" >
+                                                        5108 Icy Spark white			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7099 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../5109-icy-spark-dark/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Icy-Spark-dark-5109-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../5109-icy-spark-dark/index.html" >
+                                                        5109 Icy Spark dark			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7455 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../6035-silver-marble-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/63050dabzn4gcewgwl9xf6wbcbulvfdy-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../6035-silver-marble-2/index.html" >
+                                                        6035 Silver Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5869 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../6035-silver-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/2dohdfyzqqpzpj3e00fzkczb0l64gxk1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../6035-silver-marble/index.html" >
+                                                        6035 Silver Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5775 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7110-sandy-arabica/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/g7mlla8jo68zeyaomjf9wf8s903n3t9f-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7110-sandy-arabica/index.html" >
+                                                        7110 Sandy Arabica			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5459 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7120-carpenter-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/47n5wjntg114dhecja1ctklquvva3qkv-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7120-carpenter-oak/index.html" >
+                                                        7120 Carpenter Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5458 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7122-carpenter-oak-dark/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3nqcaf74rjbez4fk5o799t74jgtu4e6m-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7122-carpenter-oak-dark/index.html" >
+                                                        7122 Carpenter Oak dark			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6525 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7141-sawbury-oak-light-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/l2ndfsh8w394re0y31zww50stz66ls0i-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7141-sawbury-oak-light-2/index.html" >
+                                                        7141 Sawbury Oak light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5772 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7141-sawbury-oak-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/hxj0ver4cg2j6haetsgh0fa3cgyd550h-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7141-sawbury-oak-light/index.html" >
+                                                        7141 Sawbury Oak light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5774 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7142-sawbury-oak-dark/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ve0p76ovpaswf77l73bm2mvh2cefpkj3-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7142-sawbury-oak-dark/index.html" >
+                                                        7142 Sawbury Oak dark			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6526 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7144-sawbury-oak-grey-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/a6poobfs2njjq601fzwrsx7xmveg36bu-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7144-sawbury-oak-grey-2/index.html" >
+                                                        7144 Sawbury Oak grey			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5773 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7144-sawbury-oak-grey/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ftzny2ad6xul8a59odj8pv1q91uk3oju-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7144-sawbury-oak-grey/index.html" >
+                                                        7144 Sawbury Oak grey			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5689 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7191-molokai/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/uohbobng3rhl2vk1i99adttsex449lrr-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7191-molokai/index.html" >
+                                                        7191 Molokai			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6016 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7193-almond-molokai/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/w03arrb4srirdp32mb3j5o48xjwv6e6q-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7193-almond-molokai/index.html" >
+                                                        7193 Almond Molokai			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5455 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7220-edinburgh-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/6hvk3ynur50127272em9bfj18pk12x5o-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7220-edinburgh-oak/index.html" >
+                                                        7220 Edinburgh Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6528 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7249-nevada-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/i4qdhz84b56l33md9yafgts5r3sp7zb5-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7249-nevada-oak/index.html" >
+                                                        7249 Nevada Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5560 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7409-garland/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/jobuep4jpfot6u8pa8a1uizwrp3b8beu-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7409-garland/index.html" >
+                                                        7409 Garland			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5553 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3259-french-oak-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/59klfo0yxk5hd2az0xfdy2200rbr3lzl-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3259-french-oak-2/index.html" >
+                                                        7410 Irving			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5310 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7411-arlington/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/sg0lnggqr4n8vyd6ry0h1ol842fjusew-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7411-arlington/index.html" >
+                                                        7411 Arlington			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6527 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7515-polvere/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/zfcq4vkv8gr6re9zusciou93slbu7pow-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7515-polvere/index.html" >
+                                                        7515 Polvere			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7451 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7609-marshmallow/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/45c888c3b1dc5b332ab8c6ac50eda72f-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7609-marshmallow/index.html" >
+                                                        7609 Marshmallow			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6582 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8706-biscotto-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8d6e715c515a2fb390550015c2bd636a-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8706-biscotto-2/index.html" >
+                                                        7648 Fiord			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6574 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7648-oakland/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ba20bb230ebf2416dccb13c39f7f3b72-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7648-oakland/index.html" >
+                                                        7648 Oakland			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6025 post type-post status-publish format-standard has-post-thumbnail hentry category-duco1 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../7904-lumina-sand/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4f39689837df8b6d6f552c28b864b04a-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../7904-lumina-sand/index.html" >
+                                                        7904 Lumina Sand			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5552 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../3259-french-oak-3/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/bx7v7prn81gz1phearoomu3tcjvuvqbp-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../3259-french-oak-3/index.html" >
+                                                        8004 Latte			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5870 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8011-typesetter/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/x9rg76i2rpuffu0z73tocop5fqo1sjd7-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8011-typesetter/index.html" >
+                                                        8011 Typesetter			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5556 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8023-istanbul/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/fjldxwkd7ztbj4xnf57judy0ico2bcp0-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8023-istanbul/index.html" >
+                                                        8023 Istanbul			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5778 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8034-rhodes/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/josn1otuye2f0yjcwyh37j9cbvee8nsm-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8034-rhodes/index.html" >
+                                                        8034 Rhodes			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5876 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8039-valencia/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ig870jzbcztfpm1ixqsmm6df5prsw4mi-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8039-valencia/index.html" >
+                                                        8039 Valencia			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7432 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8040-crystal-marble-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/o1sw7k252yefqbe3s2nh01uedazur8m6-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8040-crystal-marble-2/index.html" >
+                                                        8040 Crystal Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7113 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8040-crystal-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/b9c3b4f9bb9f03cc08d2e885dcaee619-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8040-crystal-marble/index.html" >
+                                                        8040 Crystal Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6828 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8041-limestone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/14cb50d9bb243bb444ad29cad67752f4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8041-limestone/index.html" >
+                                                        8041 Limestone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6814 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8044-hexastone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/29u2euu1iq5ve740dlydq0ha4ldu20x9-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8044-hexastone/index.html" >
+                                                        8044 Hexastone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7114 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8047-creamy-stone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3de200e98256d058a15b150ce6b91b7a-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8047-creamy-stone/index.html" >
+                                                        8047 Creamy Stone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7089 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8048-frosty-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4a927bfaed8afbf02941e4dbe0ab6d30-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8048-frosty-marble/index.html" >
+                                                        8048 Frosty Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7463 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8050-sandy-marble-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/invnhjiw6nmh2ldzet3sa0mkqe7ixz14-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8050-sandy-marble-2/index.html" >
+                                                        8050 Sandy Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6822 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8050-sandy-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/e56cdaecfdf05b642bcdb4ca3b1aecbe-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8050-sandy-marble/index.html" >
+                                                        8050 Sandy Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7102 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8052-italian-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8b027a9bc4a1f2a63c8317dd70229b33-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8052-italian-marble/index.html" >
+                                                        8052 Italian Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7103 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8053-mystic-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/9b292c4cdadbe2f311649db751d635be-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8053-mystic-marble/index.html" >
+                                                        8053 Mystic Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7458 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8054-white-onyx-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/kyio5fjh15pskgj5gq4lewxljr9bvdcp-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8054-white-onyx-2/index.html" >
+                                                        8054 White Onyx			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7111 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8054-white-onyx/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/aa1dd850c972718c948052cfbb3fb5eb-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8054-white-onyx/index.html" >
+                                                        8054 White Onyx			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7117 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8055-brazilian-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/7f841bf99ac8d4078bf20d50096b97b0-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8055-brazilian-marble/index.html" >
+                                                        8055 Brazilian Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7085 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8056-desert-stone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/43347c65d451af35f04d6f08aac72cd9-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8056-desert-stone/index.html" >
+                                                        8056 Desert Stone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7110 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8060-smoky-quartz/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/f793d00938e97a8deee95843aa2ba008-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8060-smoky-quartz/index.html" >
+                                                        8060 Smoky Quartz			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7098 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8061-honey-quartz/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/0c63d36a98575907aa97eb011d2599d4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8061-honey-quartz/index.html" >
+                                                        8061 Honey Quartz			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6816 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8063-volcano/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/z12slun01b4amg9bj4ie4xgvr2sedes3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8063-volcano/index.html" >
+                                                        8063 Volcano			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7109 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8070-rustic-wood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/839dbed6e32fc08f1c68d5d1ca62cb24-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8070-rustic-wood/index.html" >
+                                                        8070 Rustic Wood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7095 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8071-grey-rustic-wood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/79f9d681c145269452a3c5ce2634c047-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8071-grey-rustic-wood/index.html" >
+                                                        8071 Grey Rustic Wood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6820 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8072-snowy-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/e1184706e1e6516dd7e6fa63f450c6a3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8072-snowy-oak/index.html" >
+                                                        8072 Snowy Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7104 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8073-night-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/0f63345dffd7bf0cac194c58df9faf6c-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8073-night-oak/index.html" >
+                                                        8073 Night Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5994 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8074-arctic-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/f28bd6ca4ee0d424c25c75d301cd652b-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8074-arctic-oak/index.html" >
+                                                        8074 Arctic Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7413 post type-post status-publish format-standard has-post-thumbnail hentry category-mobius tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8074-arctic-oak-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/f9b3c9c55383dbc650697498fccdb520-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8074-arctic-oak-2/index.html" >
+                                                        8074 Arctic Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7096 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8075-grunge/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/10e3b756514657bc6a5745ae64b18bbc-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8075-grunge/index.html" >
+                                                        8075 Grunge			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5983 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8076-alaska/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/9da5208c44f60ce20cd18c9b658cbafd-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8076-alaska/index.html" >
+                                                        8076 Alaska			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7088 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8077-fort-rock/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/efd594ba5555dd905f1d281a8bb17086-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8077-fort-rock/index.html" >
+                                                        8077 Fort Rock			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7074 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8078-barn-wood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/79578e346fb65091dee047405c693802-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8078-barn-wood/index.html" >
+                                                        8078 Barn Wood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7119 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8079-black-frosty-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="473" src="../wp-content/uploads/2023/07/ebe5cd0f841a3aa8eb8fba305b70bbfd-805x473.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8079-black-frosty-marble/index.html" >
+                                                        8079 Black Frosty Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7107 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8080-patagonia-azulado/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Patagonia-Azulado-8080-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8080-patagonia-azulado/index.html" >
+                                                        8080 Patagonia Azulado			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5995 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8081-amazonite-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Amazonite-8081-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8081-amazonite-2/index.html" >
+                                                        8081 Amazonite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5993 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8076-alaska-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Azul-de-Oro-8082-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8076-alaska-2/index.html" >
+                                                        8082 Azul de Oro			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7092 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8083-grey-azul/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Grey-Azul-8083-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8083-grey-azul/index.html" >
+                                                        8083 Grey Azul			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6824 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8084-quartzite-bianco/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/cemns10or72cgb679w6p9zrwlh6562iw-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8084-quartzite-bianco/index.html" >
+                                                        8084 Quartzite Bianco			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7094 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8085-grey-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Grey-Quartzite-8085-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8085-grey-quartzite/index.html" >
+                                                        8085 Grey Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7105 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8086-night-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Night-Quartzite-8086-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8086-night-quartzite/index.html" >
+                                                        8086 Night Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7116 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8087-breccia-romano/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Breccia-Romano-8087-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8087-breccia-romano/index.html" >
+                                                        8087 Breccia Romano			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7097 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8088-honey-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Honey-Oak-8088-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8088-honey-oak/index.html" >
+                                                        8088 Honey Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6805 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8089-concrete-wood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ukjqz5yd3yhy5888bl6fshv8cc8bqcdg-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8089-concrete-wood/index.html" >
+                                                        8089 Concrete Wood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6797 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8090-grunge-wood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/a8tr6ah1kg61olv50vh8c5eq6b4o38io-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8090-grunge-wood/index.html" >
+                                                        8090 Grunge Wood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6812 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8091-grey-cracked-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/cs1y5bi5ify1e818ijri9ks0l3n304dl-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8091-grey-cracked-oak/index.html" >
+                                                        8091 Grey cracked Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6802 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8092-cracked-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/8oprpb34qfkb8bnfeddyoysgobx2667t-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8092-cracked-oak/index.html" >
+                                                        8092 Cracked Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6798 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8093-wilson-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/c8zk3j1n0vzj2d33178e9fdoqulecgfe-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8093-wilson-oak/index.html" >
+                                                        8093 Wilson Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5776 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8095-rustic-pine-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/n3ohwa0leoflge7bixlovs95ysevhc7m-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8095-rustic-pine-light/index.html" >
+                                                        8095 Rustic Pine light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5777 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8096-rustic-pine/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4yffvxbqeqlwryvsgclr67fxnfd00e39-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8096-rustic-pine/index.html" >
+                                                        8096 Rustic Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6815 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8097-invisible-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/u9sqjdhh9upsigsfh6n6cd7cbqpd4o0y-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8097-invisible-marble/index.html" >
+                                                        8097 Invisible Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6826 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8098-marble-lilac/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/7b77c2b07414bc65cb07208b536b6664-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8098-marble-lilac/index.html" >
+                                                        8098 Marble Lilac			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5771 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8099-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/fs766bxgg3esbu30g3icn56seb5h0qz9-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8099-quartzite/index.html" >
+                                                        8099 Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7120 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8100-beige-azul/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Beige-Azul-8100-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8100-beige-azul/index.html" >
+                                                        8100 Beige Azul			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6804 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8101-calacatta-borghini/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/con4c67gz917sshjbqawxdlz8cer026u-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8101-calacatta-borghini/index.html" >
+                                                        8101 Calacatta Borghini			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7106 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8102-patagonia/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Patagonia-8102-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8102-patagonia/index.html" >
+                                                        8102 Patagonia			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6810 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8103-blue-amazonite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/c1030umdir1hjgbxtpsew920ipqrv29j-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8103-blue-amazonite/index.html" >
+                                                        8103 Blue Amazonite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6821 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8104-sandy-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/j74s2023fr945hzim49y1dead7ozm49r-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8104-sandy-quartzite/index.html" >
+                                                        8104 Sandy Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6808 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8105-black-de-oro/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/zm54mxzbwhvqtz82u8h8rck2hlcolqr4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8105-black-de-oro/index.html" >
+                                                        8105 Black de Oro			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6830 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8106-bianco-extra/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3v8t8du2wajxr7ic0etpz1k1ttqc64xk-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8106-bianco-extra/index.html" >
+                                                        8106 Bianco Extra			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6799 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8107-electric-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ijq0ivq6frjvcqld65jd8p8afh78oct4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8107-electric-quartzite/index.html" >
+                                                        8107 Electric Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5558 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8108-grigio-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/4z0g5thj2lrwaa50kubowr3jh34x9og8-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8108-grigio-quartzite/index.html" >
+                                                        8108 Grigio Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6807 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8109-breccia/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/y5uq1m453pljzih98dgud3x7pzoo5yrw-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8109-breccia/index.html" >
+                                                        8109 Breccia			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5327 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8110-azurita-white/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/9wqzkeank3eopoubpi6gf1l9w0s63me4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8110-azurita-white/index.html" >
+                                                        8110 Azurita white			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5872 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8111-azurita-black/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/b735r1ur2d5um7nqrelhjy5jcodciyh8-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8111-azurita-black/index.html" >
+                                                        8111 Azurita black			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5779 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8112-quartzite-superwhite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/u94ioqdxx48qp3sz8280qtowr8c2hx0y-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8112-quartzite-superwhite/index.html" >
+                                                        8112 Quartzite superwhite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6811 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8113-black-quartzite/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/v0ib681jpbs60bbq0a6lssnng11joofu-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8113-black-quartzite/index.html" >
+                                                        8113 Black Quartzite			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6819 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8114-taj-mahal/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/vu0crszpjqhjvoxjzq4fpunbidwwv3de-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8114-taj-mahal/index.html" >
+                                                        8114 Taj Mahal			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7115 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8115-calacatta-oro/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/25311b6b5f3bb39f2c83f4fc37ac02da-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8115-calacatta-oro/index.html" >
+                                                        8115 Calacatta Oro			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7087 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8116-fancy-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Fancy-Oak-8116-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8116-fancy-oak/index.html" >
+                                                        8116 Fancy Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-7093 post type-post status-publish format-standard has-post-thumbnail hentry category-elga3 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8117-grey-fancy-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/Grey-Fancy-Oak-8117-1320x4200-1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8117-grey-fancy-oak/index.html" >
+                                                        8117 Grey Fancy Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5683 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8118-lily-pine/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/zkg8kalqldj75b8ph13ifn4r94zn2neq-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8118-lily-pine/index.html" >
+                                                        8118 Lily Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5877 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8119-vintage-pine/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/dyjgo1yg76g96wlsvqsnxj73qn2fmnm2-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8119-vintage-pine/index.html" >
+                                                        8119 Vintage Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5770 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8120-pino-multicolore/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/89qkcxc8vud6feq5autqazev1drywziy-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8120-pino-multicolore/index.html" >
+                                                        8120 Pino multicolore			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5559 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8121-grigio-pino/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/9vydfwmucz7okn1hieqarputy8t597qk-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8121-grigio-pino/index.html" >
+                                                        8121 Grigio Pino			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6809 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8122-black-barn-pine/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/mua7pl69w0escibioafmcyltd844j2cp-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8122-black-barn-pine/index.html" >
+                                                        8122 Black Barn Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5557 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8123-icy-pine/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/myjolv6hm30369gqiy4e9je8izjknu8p-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8123-icy-pine/index.html" >
+                                                        8123 Icy Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5685 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8124-painted-pine/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/a0i7iemzx4r72rva7qubxbwhrcg8qyum-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8124-painted-pine/index.html" >
+                                                        8124 Painted Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6827 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8125-phantom-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/qu1wo7ntfo1wy7gu4sducyq1owtfcp4d-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8125-phantom-marble/index.html" >
+                                                        8125 Phantom Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6825 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8126-phantom-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/95hw9lz2x3x65s0zb3ri1rpgsas1xfqd-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8126-phantom-marble/index.html" >
+                                                        8126 Phantom Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6823 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8127-quartzite-michelangelo/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/n6elffxgdc51i24wuy9fww59lol6lyah-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8127-quartzite-michelangelo/index.html" >
+                                                        8127 Quartzite Michelangelo			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5687 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8128-mystic-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/mboc24z2mepkuo0t4dhcd3k99lg17ihj-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8128-mystic-light/index.html" >
+                                                        8128 Mystic light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5688 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8129-mystic-grey/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/d3n6u0r979zzokkey29lyjeflr97ncle-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8129-mystic-grey/index.html" >
+                                                        8129 Mystic grey			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5461 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8130-breccia-capraia/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/rhpxc6a6imvlzx5i421ld1jc80r0edua-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8130-breccia-capraia/index.html" >
+                                                        8130 Breccia Capraia			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6813 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8131-fior-di-bosco/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/6m3iguqwddibmjbvdpfqjtjgt9wtezc4-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8131-fior-di-bosco/index.html" >
+                                                        8131 Fior di Bosco			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6829 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8368-jasper/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/yvtq5xaxmx8uoxmcjf6z91gxloak4ntq-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8368-jasper/index.html" >
+                                                        8368 Jasper			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5961 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8373-belton-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/iftfp55ijes6ddyuvfj19jwi3lmazce3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8373-belton-oak/index.html" >
+                                                        8373 Belton Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6817 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8374-velten-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/lokj1jhmkqgrosnvdzt603237yi5ecod-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8374-velten-oak/index.html" >
+                                                        8374 Velten Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5962 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8375-baltimore-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/3523phvivi8eoe4fk5a038jvog02juby-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8375-baltimore-oak/index.html" >
+                                                        8375 Baltimore Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5454 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8458-freeride/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/rxnn6qdg48favkxjoh36f2cw039d2s4i-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8458-freeride/index.html" >
+                                                        8458 Freeride			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6806 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8465-boston/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/xdf4zqorzgerv5bspcpdz17apc8tbtgu-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8465-boston/index.html" >
+                                                        8465 Boston			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6803 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8466-cadiz/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/ghiig31oh1cvuxq0dfottnlqb25z1gn3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8466-cadiz/index.html" >
+                                                        8466 Cadiz			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5318 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8601-ascoli/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/q5ujsnsv1em44fvks0x31br2565j1cyh-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8601-ascoli/index.html" >
+                                                        8601 Ascoli			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5235 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8602-agadir/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/mvmkqsafpydlqiu468nkbteupdutz5bc-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8602-agadir/index.html" >
+                                                        8602 Agadir			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5554 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8603-larnaca/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/cmpprqq7p87mzzzervaiqwi3jbtna63y-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8603-larnaca/index.html" >
+                                                        8603 Larnaca			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5335 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8604-barla-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/6fn4zw2ppzqypr9p2bqgda2fgn363cxm-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8604-barla-marble/index.html" >
+                                                        8604 Barla Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-5690 post type-post status-publish format-standard has-post-thumbnail hentry category-elga1 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8605-mersin-marble/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/jez34l3a1erb5cnldrhst92w2ncnu3yl-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8605-mersin-marble/index.html" >
+                                                        8605 Mersin Marble			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6818 post type-post status-publish format-standard has-post-thumbnail hentry category-elga2 tag-stenovye-paneli tag-stoleshnicy tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8607-tarsus-onyx/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/nq6velrx8jhi5tdqddhh182qd4yntdfv-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8607-tarsus-onyx/index.html" >
+                                                        8607 Tarsus Onyx			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6690 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8701-lexington-walnut/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/g3qomizbm6mseakxyjei1wujmxrfags7-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8701-lexington-walnut/index.html" >
+                                                        8701 Lexington Walnut			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6048 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8702-argento-bianco/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/1iqlbn3jx01kywv4192ayjdg8efmo3cz-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8702-argento-bianco/index.html" >
+                                                        8702 Argento Bianco			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6686 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8703-rockstone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/42xz3nhj6170ap1yl3k1n3xjmpzvhyua-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8703-rockstone/index.html" >
+                                                        8703 Rockstone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6583 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8704-denver/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/0zzhwmgmjbfun2uz4ku6w4arl1294i5b-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8704-denver/index.html" >
+                                                        8704 Denver			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6576 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8706-biscotto-5/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/rdr26xgkll6rnh709yyk0f9p9ks16v4m-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8706-biscotto-5/index.html" >
+                                                        8705 Ostuni			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6058 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8706-biscotto/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/65jhamof0ka44nti49eic0yl0hkv31am-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8706-biscotto/index.html" >
+                                                        8706 Biscotto			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6687 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8707-riverstone/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/i59ysbpiokjdrl89jvfohmsayui56eba-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8707-riverstone/index.html" >
+                                                        8707 Riverstone			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6685 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8708-rockstone-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/munzzmrley7yfhnqol5vlaqe93xquw0s-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8708-rockstone-light/index.html" >
+                                                        8708 Rockstone light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6682 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8709-matrix/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/mkr3l2o1y0vp4cezyzxjyvra5jr5ihpi-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8709-matrix/index.html" >
+                                                        8709 Мatrix			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6059 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8710-benato-light/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/deoteand2kcngt2a4q8e5u7oyracp6b2-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8710-benato-light/index.html" >
+                                                        8710 Benato light			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6060 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8711-benato/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/yf1xi0s30jegw3shima3rngds90uo1dd-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8711-benato/index.html" >
+                                                        8711 Benato			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6097 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8712-bamboo-fabric/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/neaj0ns1b2grinzoinqs0i4iszsjzz75-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8712-bamboo-fabric/index.html" >
+                                                        8712 Bamboo Fabric			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6573 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8713-maybole/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/npxd7kfjnsn8sirfb5uxyc35x0gs5pu9-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8713-maybole/index.html" >
+                                                        8713 Maybole			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6674 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8714-donegal/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/q4waz44ztf9x0i04d23b3zta630tuzxq-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8714-donegal/index.html" >
+                                                        8714 Donegal			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6688 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8714-donegal-2/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/2f52gle339z8rmpm5qvd3fgi6v8m18pv-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8714-donegal-2/index.html" >
+                                                        8715 Ocean Pine			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6584 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8716-chester-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/jjot3ruf2kuvrv10yk8snqgjxtjaobyh-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8716-chester-oak/index.html" >
+                                                        8716 Chester Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6575 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8717-noel-oak/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/9x0cxn2pj9nl3ex5wolurlln3pvf0r1d-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8717-noel-oak/index.html" >
+                                                        8717 Noel Oak			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6683 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8714-donegal-3/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/923amb91bncsqtvxjdp3il3hk7jiyoel-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8714-donegal-3/index.html" >
+                                                        8718 Shetland			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6579 post type-post status-publish format-standard has-post-thumbnail hentry category-duco2 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8719-pino-bianco/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/rvpf0q3gwer7cjy7h72d12nzpeclzo8e-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8719-pino-bianco/index.html" >
+                                                        8719 Pino Bianco			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6099 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8720-ambar-wood/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/zff92a2bgk1myndmfgxl5816pol5o6h6-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8720-ambar-wood/index.html" >
+                                                        8720 Ambar Wood			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6098 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8721-antique-copper/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/u430h2ftwmkl8egcfou1nnkw9mq5eki1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8721-antique-copper/index.html" >
+                                                        8721 Antique Copper			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6693 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8722-downtown/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/g4vy5nzj6a5bkgosvoipyfitdy8jl1l3-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8722-downtown/index.html" >
+                                                        8722 Downtown			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6692 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8723-elain/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/5rmbv6bpof504nuxoin9cyajztyjgq3v-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8723-elain/index.html" >
+                                                        8723 Elain			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6089 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8724-abington/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/kqlj379cxtjplgiuofw4h8i5wdhf4lnz-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8724-abington/index.html" >
+                                                        8724 Abington			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6691 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8725-harris/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/6fed3kl0a58mvd8s4853p63fgctj5h8p-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8725-harris/index.html" >
+                                                        8725 Harris			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6684 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8726-scandic/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/444hq7ui7qc8s654u4z2dwksbvgnkwp9-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8726-scandic/index.html" >
+                                                        8726 Scandic			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                        <article class="elementor-post elementor-grid-item post-6689 post type-post status-publish format-standard has-post-thumbnail hentry category-duco3 tag-stenovye-paneli tag-fasadnye-polotna">
+                                            <a class="elementor-post__thumbnail__link" href="../8727-marseille/index.html" >
+                                                <div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="805" height="683" src="../wp-content/uploads/2023/07/loqtljuzbi3urnjsshlynnmzf0eg6zt1-805x683.jpg" class="attachment-theratio-grid-post-thumbnail size-theratio-grid-post-thumbnail" alt="" /></div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                                <h4 class="elementor-post__title">
+                                                    <a href="../8727-marseille/index.html" >
+                                                        8727 Marseille			</a>
+                                                </h4>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    </div><!-- #content -->
+</div><!-- #page -->
+
+<script>
+    window.RS_MODULES = window.RS_MODULES || {};
+    window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+    window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+    window.RS_MODULES.defered = true;
+    window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+    window.RS_MODULES.type = 'compiled';
+</script>
+<a id="back-to-top" href="#" class="show"><i class="ot-flaticon-left-arrow"></i></a><div class="wpc-filters-overlay"></div>
+<link rel='stylesheet' id='select2-css' href='../wp-content/plugins/filter-everything-pro/assets/css/select2/select2.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-2846-css' href='../wp-content/uploads/elementor/css/post-2846.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3992-css' href='../wp-content/uploads/elementor/css/post-3992.css' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css' href='../wp-content/plugins/elementor/assets/lib/animations/animations.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='../wp-content/plugins/revslider/public/assets/css/rs.css' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>#rs-demo-id {}
+</style>
+<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/swv/js/index%EF%B9%96ver=5.6.4.js" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+    /* <![CDATA[ */
+    var wpcf7 = {"api":{"root":"https:\/\/annt.ru\/deco1\/wp-json\/","namespace":"contact-form-7\/v1"}};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/index%EF%B9%96ver=5.6.4.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/rbtools.min%EF%B9%96ver=6.6.7.js" defer async id="tp-tools-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/rs6.min%EF%B9%96ver=6.6.7.js" defer async id="revmin-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/swiper.min%EF%B9%96ver=20180910.js" id="swiper-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/mousewheel.min%EF%B9%96ver=20180910.js" id="mousewheel-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/lightgallery-all.min%EF%B9%96ver=20180910.js" id="lightgallery-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/jquery.isotope.min%EF%B9%96ver=20190829.js" id="isotope-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/easypiechart.min%EF%B9%96ver=20190829.js" id="easypiechart-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/jquery.countdown.min%EF%B9%96ver=20180910.js" id="countdown-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/before-after%EF%B9%96ver=20180910.js" id="theratio-before-after-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/elementor%EF%B9%96ver=20180910.js" id="theratio-elementor-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/elementor-header%EF%B9%96ver=20200317.js" id="theratio-elementor-header-js"></script>
+<script type="text/javascript" src="../wp-content/themes/theratio/js/scripts%EF%B9%96ver=20200317.js" id="theratio-scripts-js"></script>
+<script type="text/javascript" id="wd-asl-ajaxsearchlite-js-before">
+    /* <![CDATA[ */
+    window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_rocket_exception = "DOMContentLoaded"; window.ASL.ajaxurl = "https:\/\/annt.ru\/deco1\/wp-admin\/admin-ajax.php"; window.ASL.backend_ajaxurl = "https:\/\/annt.ru\/deco1\/wp-admin\/admin-ajax.php"; window.ASL.js_scope = "jQuery"; window.ASL.asl_url = "https:\/\/annt.ru\/deco1\/wp-content\/plugins\/ajax-search-lite\/"; window.ASL.detect_ajax = 1; window.ASL.media_query = 4758; window.ASL.version = 4758; window.ASL.pageHTML = ""; window.ASL.additional_scripts = [{"handle":"wd-asl-ajaxsearchlite","src":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/ajax-search-lite\/js\/nomin\/plugin\/optimized\/asl-prereq.js","prereq":[]},{"handle":"wd-asl-ajaxsearchlite-core","src":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/ajax-search-lite\/js\/nomin\/plugin\/optimized\/asl-core.js","prereq":[]},{"handle":"wd-asl-ajaxsearchlite-vertical","src":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/ajax-search-lite\/js\/nomin\/plugin\/optimized\/asl-results-vertical.js","prereq":["wd-asl-ajaxsearchlite"]},{"handle":"wd-asl-ajaxsearchlite-load","src":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/ajax-search-lite\/js\/nomin\/plugin\/optimized\/asl-load.js","prereq":["wd-asl-ajaxsearchlite-vertical"]}]; window.ASL.script_async_load = false; window.ASL.init_only_in_viewport = true; window.ASL.font_url = "https:\/\/annt.ru\/deco1\/wp-content\/plugins\/ajax-search-lite\/css\/fonts\/icons2.woff2"; window.ASL.css_async = false; window.ASL.highlight = {"enabled":false,"data":[]}; window.ASL.analytics = {"method":0,"tracking_id":"","string":"?ajax_search={asl_term}","event":{"focus":{"active":1,"action":"focus","category":"ASL","label":"Input focus","value":"1"},"search_start":{"active":0,"action":"search_start","category":"ASL","label":"Phrase: {phrase}","value":"1"},"search_end":{"active":1,"action":"search_end","category":"ASL","label":"{phrase} | {results_count}","value":"1"},"magnifier":{"active":1,"action":"magnifier","category":"ASL","label":"Magnifier clicked","value":"1"},"return":{"active":1,"action":"return","category":"ASL","label":"Return button pressed","value":"1"},"facet_change":{"active":0,"action":"facet_change","category":"ASL","label":"{option_label} | {option_value}","value":"1"},"result_click":{"active":1,"action":"result_click","category":"ASL","label":"{result_title} | {result_url}","value":"1"}}};
+    window.ASL_INSTANCES = [];window.ASL_INSTANCES[1] = {"homeurl":"https:\/\/annt.ru\/deco1\/","resultstype":"vertical","resultsposition":"hover","itemscount":4,"charcount":0,"highlight":0,"highlightwholewords":1,"singleHighlight":0,"scrollToResults":{"enabled":0,"offset":0},"resultareaclickable":1,"autocomplete":{"enabled":0,"lang":"en","trigger_charcount":0},"mobile":{"menu_selector":"#menu-toggle"},"trigger":{"click":"ajax_search","click_location":"same","update_href":0,"return":"ajax_search","return_location":"same","facet":1,"type":1,"redirect_url":"?s={phrase}","delay":300},"animations":{"pc":{"settings":{"anim":"fadedrop","dur":300},"results":{"anim":"fadedrop","dur":300},"items":"voidanim"},"mob":{"settings":{"anim":"fadedrop","dur":300},"results":{"anim":"fadedrop","dur":300},"items":"voidanim"}},"autop":{"state":"disabled","phrase":"","count":1},"resPage":{"useAjax":0,"selector":"#main","trigger_type":1,"trigger_facet":1,"trigger_magnifier":0,"trigger_return":0},"resultsSnapTo":"left","results":{"width":"auto","width_tablet":"auto","width_phone":"auto"},"settingsimagepos":"right","closeOnDocClick":1,"overridewpdefault":0,"override_method":"get"};window.ASL_INSTANCES[2] = {"homeurl":"https:\/\/annt.ru\/deco1\/","resultstype":"vertical","resultsposition":"hover","itemscount":4,"charcount":0,"highlight":0,"highlightwholewords":1,"singleHighlight":0,"scrollToResults":{"enabled":0,"offset":0},"resultareaclickable":1,"autocomplete":{"enabled":0,"lang":"en","trigger_charcount":0},"mobile":{"menu_selector":"#menu-toggle"},"trigger":{"click":"ajax_search","click_location":"same","update_href":0,"return":"ajax_search","return_location":"same","facet":1,"type":1,"redirect_url":"?s={phrase}","delay":300},"animations":{"pc":{"settings":{"anim":"fadedrop","dur":300},"results":{"anim":"fadedrop","dur":300},"items":"voidanim"},"mob":{"settings":{"anim":"fadedrop","dur":300},"results":{"anim":"fadedrop","dur":300},"items":"voidanim"}},"autop":{"state":"disabled","phrase":"","count":1},"resPage":{"useAjax":0,"selector":"#main","trigger_type":1,"trigger_facet":1,"trigger_magnifier":0,"trigger_return":0},"resultsSnapTo":"left","results":{"width":"auto","width_tablet":"auto","width_phone":"auto"},"settingsimagepos":"right","closeOnDocClick":1,"overridewpdefault":0,"override_method":"get"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/ajax-search-lite/js/nomin/plugin/optimized/asl-prereq%EF%B9%96ver=4758.js" id="wd-asl-ajaxsearchlite-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ajax-search-lite/js/nomin/plugin/optimized/asl-core%EF%B9%96ver=4758.js" id="wd-asl-ajaxsearchlite-core-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ajax-search-lite/js/nomin/plugin/optimized/asl-results-vertical%EF%B9%96ver=4758.js" id="wd-asl-ajaxsearchlite-vertical-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ajax-search-lite/js/nomin/plugin/optimized/asl-load%EF%B9%96ver=4758.js" id="wd-asl-ajaxsearchlite-load-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/ajax-search-lite/js/nomin/plugin/optimized/asl-wrapper%EF%B9%96ver=4758.js" id="wd-asl-ajaxsearchlite-wrapper-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/ui/core.min%EF%B9%96ver=1.13.3.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/ui/mouse.min%EF%B9%96ver=1.13.3.js" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/ui/slider.min%EF%B9%96ver=1.13.3.js" id="jquery-ui-slider-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/filter-everything-pro/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min%EF%B9%96ver=1.7.10.js" id="wc-jquery-ui-touchpunch-js"></script>
+<script type="text/javascript" id="wpc-filter-everything-js-extra">
+    /* <![CDATA[ */
+    var wpcFilterFront = {"ajaxUrl":"https:\/\/annt.ru\/deco1\/wp-admin\/admin-ajax.php","wpcAjaxEnabled":"","wpcStatusCookieName":"wpcContainersStatus","wpcMoreLessCookieName":"wpcMoreLessStatus","wpcHierarchyListCookieName":"wpcHierarchyListStatus","wpcWidgetStatusCookieName":"wpcWidgetStatus","wpcMobileWidth":"768","showBottomWidget":"no","_nonce":"f057bbc1dd","wpcPostContainers":{"default":""},"wpcAutoScroll":"","wpcAutoScrollOffset":"150","wpcWaitCursor":"1","wpcPostsPerPage":{"5099":10},"wpcUseSelect2":"yes","wpcPopupCompatMode":"","wpcApplyButtonSets":[],"wpcQueryOnThePageSets":[5099],"wpcNoPostsContainerMsg":"It appears that this page does not contain a container with the specified \u00abCSS id or class of the Posts Container\u00bb. Try to specify the correct one in the Filter Set settings or the common plugin Settings."};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/filter-everything-pro/assets/js/filter-everything.min%EF%B9%96ver=1.7.10.js" id="wpc-filter-everything-js"></script>
+<script type="text/javascript" src="../wp-includes/js/imagesloaded.min%EF%B9%96ver=5.0.0.js" id="imagesloaded-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min%EF%B9%96ver=3.8.2.js" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min%EF%B9%96ver=3.8.1.js" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend-modules.min%EF%B9%96ver=3.8.1.js" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="../wp-includes/js/dist/hooks.min%EF%B9%96ver=4d63a3d491d11ffd8ac6.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="../wp-includes/js/dist/i18n.min%EF%B9%96ver=5e580eb46a90c2b997e6.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+    /* <![CDATA[ */
+    wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+    /* ]]> */
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+    /* <![CDATA[ */
+    var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/annt.ru\/deco1\/wp-admin\/admin-ajax.php","nonce":"4f29bf9691","urls":{"assets":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/annt.ru\/deco1\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"ru_RU","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/frontend.min%EF%B9%96ver=3.8.2.js" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min%EF%B9%96ver=4.0.2.js" id="elementor-waypoints-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+    /* <![CDATA[ */
+    var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Facebook","shareOnTwitter":"\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Twitter","pinIt":"\u0417\u0430\u043f\u0438\u043d\u0438\u0442\u044c","download":"\u0421\u043a\u0430\u0447\u0430\u0442\u044c","downloadImage":"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435","fullscreen":"\u0412\u043e \u0432\u0435\u0441\u044c \u044d\u043a\u0440\u0430\u043d","zoom":"\u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u0435","share":"\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f","playVideo":"\u041f\u0440\u043e\u0438\u0433\u0440\u0430\u0442\u044c \u0432\u0438\u0434\u0435\u043e","previous":"\u041d\u0430\u0437\u0430\u0434","next":"\u0414\u0430\u043b\u0435\u0435","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"\u0422\u0435\u043b\u0435\u0444\u043e\u043d","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"\u0422\u0435\u043b\u0435\u0444\u043e\u043d \u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"\u041f\u043b\u0430\u043d\u0448\u0435\u0442","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"\u041f\u043b\u0430\u043d\u0448\u0435\u0442 \u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"\u041d\u043e\u0443\u0442\u0431\u0443\u043a","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"\u0428\u0438\u0440\u043e\u043a\u043e\u0444\u043e\u0440\u043c\u0430\u0442\u043d\u044b\u0435","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.8.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"loop":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/annt.ru\/deco1\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":5227,"title":"%D0%94%D0%B5%D0%BA%D0%BE%D1%80%D1%8B%20%E2%80%94%20Deconext","excerpt":"","featuredImage":false}};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.min%EF%B9%96ver=3.8.1.js" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/elements-handlers.min%EF%B9%96ver=3.8.2.js" id="pro-elements-handlers-js"></script>
+
+</body>
 </html>
